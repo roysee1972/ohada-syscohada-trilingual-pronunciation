@@ -1,0 +1,6 @@
+# edge-tts 音频缓存（约 2900 个 mp3，重跑时自动重建）
+_audio_cache/
+# 中间产物
+__pycache__/
+*.pyc
+_failed.txt
