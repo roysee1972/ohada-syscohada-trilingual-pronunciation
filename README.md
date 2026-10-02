@@ -4,7 +4,7 @@
 > **1351 条** OHADA/SYSCOHADA 会计科目，**中文 · 法文 · 英文**三语对照，
 > 每一条都能听到**离线内嵌的法语音频**和**英文音频**。
 
-- 工具本体：[`ohada-syscohada-pronunciation-offline.html`](ohada-syscohada-pronunciation-offline.html)（约 58 MB，下载后双击打开）
+- 工具本体：[Releases 下载 `ohada-syscohada-pronunciation-offline.html`](https://github.com/roysee1972/ohada-syscohada-trilingual-pronunciation/releases/latest/download/ohada-syscohada-pronunciation-offline.html)（约 58 MB，下载后双击打开）
 - 在线体验（GitHub Pages 首页）：<https://roysee1972.github.io/ohada-syscohada-trilingual-pronunciation/>
 - 只要数据不要界面：[`data/ohada_accounts_trilingual.csv`](data/ohada_accounts_trilingual.csv)（1351 行，130 KB）
 
