@@ -1,0 +1,6 @@
+# 统一换行符，避免 Windows/macOS 协作时整文件 diff
+* text=auto eol=lf
+
+# 二进制 / 超大内嵌资源，禁止任何换行或编码转换
+*.xlsx binary
+ohada-syscohada-pronunciation-offline.html binary

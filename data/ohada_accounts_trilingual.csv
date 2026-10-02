@@ -1,0 +1,1352 @@
+﻿account_code,level,french,chinese,english
+10,2,Capital,股本,Capital
+101,3,Capital social,公司股本,Share capital
+1011,4,"Capital souscrit, non appelé",已认购未催缴股本,"Share capital subscribed, not called up"
+1012,4,"Capital souscrit, appelé, non versé",已认购已催缴未实缴股本,"Share capital subscribed, called up, not paid"
+1013,4,"Capital souscrit, appelé, versé, non amorti",已认购已缴未摊还股本,"Share capital subscribed, called up, paid, not amortised"
+1014,4,"Capital souscrit, appelé, versé, amorti",已认购已缴已摊还股本,"Share capital subscribed, called up, paid, amortised"
+1018,4,Capital souscrit soumis à des conditions particulières,附特定条件的已认购股本,Share capital subscribed subject to special conditions
+102,3,Capital par dotation,拨入资本,Endowment capital
+1021,4,Dotation initiale,初始拨入资本,Initial endowment
+1022,4,Dotations complémentaires,补充拨入资本,Additional endowments
+1028,4,Autres dotations,其他拨入资本,Other endowments
+103,3,Capital personnel,业主个人资本,Personal capital (sole proprietorship)
+104,3,Compte de l'exploitant,业主往来,Owner current account
+1041,4,Apports temporaires,临时投入,Temporary contributions
+1042,4,Opérations courantes,日常经营往来,Current transactions
+1043,4,"Rémunérations, impôts et autres charges personnelles",业主报酬、税款及其他个人负担,"Remuneration, taxes and other personal expenses"
+1047,4,Prélèvements d'autoconsommation,自用提取,Withdrawals for own consumption
+1048,4,Autres prélèvements,其他提取,Other withdrawals
+105,3,Primes liées au capital social,股本溢价,Share premiums
+1051,4,Primes d'émission,股票发行溢价,Issue premiums
+1052,4,Primes d'apport,投入资本溢价,Contribution premiums
+1053,4,Primes de fusion,合并溢价,Merger premiums
+1054,4,Primes de conversion,转换溢价,Conversion premiums
+1058,4,Autres primes,其他溢价,Other premiums
+106,3,Écarts de réévaluation,重估差额,Revaluation differences
+1061,4,Écarts de réévaluation légale,法定重估差额,Statutory revaluation differences
+1062,4,Écarts de réévaluation libre,自由重估差额,Discretionary revaluation differences
+109,3,"Apporteurs, capital souscrit, non appelé",股东已认购未催缴股本（抵减项）,"Contributors, capital subscribed but not called up"
+11,2,Réserves,公积金,Reserves
+111,3,Réserve légale,法定公积金,Legal reserve
+112,3,Réserves statutaires ou contractuelles,章程或合同规定公积金,Statutory or contractual reserves
+113,3,Réserves réglementées,管制性公积金,Regulated reserves
+1131,4,Réserves de plus-values nettes à long terme,长期净增值公积金,Long-term net capital gains reserves
+1132,4,Réserves d'attribution gratuite d'actions au personnel salarié et aux dirigeants,无偿授予职工及管理层股份公积金,Reserves for free share allocations to employees and managers
+1133,4,Réserves consécutives à l'octroi de subventions d'investissement,投资补助形成公积金,Reserves arising from investment grants
+1134,4,Réserves de valeurs mobilières donnant accès au capital,可取得股本的证券公积金,Reserves for securities giving access to share capital
+1138,4,Autres réserves réglementées,其他管制性公积金,Other regulated reserves
+118,3,Autres réserves,其他公积金,Other reserves
+1181,4,Réserves facultatives,任意公积金,Discretionary reserves
+1188,4,Réserves diverses,各项其他公积金,Sundry reserves
+12,2,Report à nouveau,未分配利润,Retained earnings brought forward
+121,3,Report à nouveau créditeur,年初未分配利润（贷方）,Retained earnings brought forward — credit balance
+129,3,Report à nouveau débiteur,年初未弥补亏损（借方）,"Retained earnings brought forward, debit balance"
+1291,4,Perte nette à reporter,结转净亏损,Net loss to be carried forward
+1292,4,Perte - Amortissements réputés différés,亏损—视同递延折旧,Loss on deemed deferred depreciation
+13,2,Résultat net de l'exercice,本期净损益,Net result for the period
+130,3,Résultat en instance d'affectation,待分配损益,Result pending appropriation
+1301,4,Résultat en instance d'affectation : bénéfice,待分配损益（盈利）,Profit pending appropriation
+1309,4,Résultat en instance d'affectation : perte,待分配损益（亏损）,Loss pending appropriation
+131,3,Résultat net : bénéfice,净利润（盈利）,Net profit for the period
+132,3,Marge commerciale (M.C.),商业毛利,Commercial margin
+133,3,Valeur ajoutée (VA),增加值,Value added
+134,3,Excédent brut d'exploitation (EBE),营业毛盈余,Gross operating surplus
+135,3,Résultat d'exploitation (RE),营业利润,Operating result
+136,3,Résultat financier (RF),财务损益,Financial result
+137,3,Résultat des activités ordinaires (RAO),经常性活动损益,Result of ordinary activities
+138,3,Résultat hors activités ordinaires (RHAO),非经常性活动损益,Result of non-ordinary activities
+1381,4,Résultat de fusion,合并损益,Merger result
+1382,4,Résultat d'apport partiel d'actif,部分资产出资损益,Result of partial contribution of assets
+1383,4,Résultat de scission,分立损益,Demerger result
+1384,4,Résultat de liquidation,清算损益,Liquidation result
+139,3,Résultat net : perte,净亏损,Net loss for the period
+14,2,Subventions d'investissement,投资补助,Investment grants
+141,3,Subventions d'équipement,设备补助,Equipment grants
+1411,4,État,国家,State
+1412,4,Régions,大区,Regions
+1413,4,Départements,省,Departments
+1414,4,Communes et collectivités publiques décentralisées,市镇及地方公共团体,Municipalities and decentralised public authorities
+1415,4,Entreprises publiques ou mixtes,公营或合营企业,Public or mixed-ownership enterprises
+1416,4,Entreprises et organismes privés,私营企业及机构,Private enterprises and organisations
+1417,4,Organismes internationaux,国际组织,International organisations
+1418,4,Autres,其他,Other
+148,3,Autres subventions d'investissement,其他投资补助,Other investment grants
+15,2,Provisions réglementées et fonds assimilés,管制性准备金及同类基金,Regulated provisions and similar funds
+151,3,Amortissements dérogatoires,超常折旧,Accelerated / tax-deferred depreciation
+152,3,Plus-values de cession à réinvestir,待再投资处置收益,Capital gains to be reinvested
+153,3,Fonds réglementés,管制基金,Regulated funds
+1531,4,Fonds National,国家基金,National fund
+1532,4,Prélèvement pour le Budget,预算提取,Budget levy
+154,3,Provision spéciale de réévaluation,重估特别准备金,Special revaluation provision
+155,3,Provisions réglementées relatives aux immobilisations,固定资产相关管制准备金,Regulated provisions relating to non-current assets
+1551,4,Reconstitution des gisements miniers et pétroliers,矿产及油气资源重置准备金,Reconstitution of mining and petroleum deposits
+156,3,Provisions réglementées relatives aux stocks,存货相关管制准备金,Regulated provisions relating to inventories
+1561,4,Hausse de prix,价格上涨准备金,Price increases
+1562,4,Fluctuation des cours,价格波动准备金,Price fluctuations
+157,3,Provisions pour investissement,投资准备金,Provisions for investment (regulated)
+158,3,Autres provisions et fonds réglementés,其他管制准备金及基金,Other regulated provisions and funds
+16,2,Emprunts et dettes assimilées,借款及类似负债,Borrowings and similar liabilities
+161,3,Emprunts obligataires,债券借款,Bond borrowings
+1611,4,Emprunts obligataires ordinaires,普通债券,Ordinary bonds
+1612,4,Emprunts obligataires convertibles,可转换债券,Convertible bonds
+1613,4,Emprunts obligataires remboursables en actions,以股份偿还的债券,Bonds redeemable in shares
+1618,4,Autres emprunts obligataires,其他债券,Other bond borrowings
+162,3,Emprunts et dettes auprès des établissements de crédit,金融机构借款及负债,Borrowings and debts owed to credit institutions
+163,3,Avances reçues de l'État,国家预拨款项,Advances received from the State
+164,3,Avances reçues et comptes courants bloqués,已收预拨款及冻结往来账户,Advances received and blocked current accounts
+165,3,Dépôts et cautionnements reçus,收到的保证金及押金,Deposits and guarantees received
+1651,4,Dépôts,保证金,Deposits
+1652,4,Cautionnements,押金,Guarantees
+166,3,Intérêts courus,应计利息,Accrued interest on borrowings
+1661,4,sur emprunts obligataires,债券借款应计利息,Accrued interest on bond borrowings
+1662,4,sur emprunts et dettes auprès des établissements de crédit,金融机构借款及负债应计利息,Accrued interest on borrowings and debts to credit institutions
+1663,4,sur avances reçues de l'État,国家预拨款应计利息,Accrued interest on advances received from the State
+1664,4,sur avances reçues et comptes courants bloqués,预拨款及冻结往来账户应计利息,Accrued interest on advances received and blocked current accounts
+1665,4,sur dépôts et cautionnements reçus,收到保证金及押金应计利息,Accrued interest on deposits and guarantees received
+1667,4,sur avances assorties de conditions particulières,附特定条件预拨款应计利息,Accrued interest on advances subject to special conditions
+1668,4,sur autres emprunts et dettes,其他借款及负债应计利息,Accrued interest on other borrowings and debts
+167,3,Avances assorties de conditions particulières,附特定条件的预拨款,Advances subject to special conditions
+1671,4,Avances bloquées pour augmentation du capital,增资专项冻结预拨款,Blocked advances for capital increase
+1672,4,Avances conditionnées par l'État,国家附条件预拨款,Advances conditioned by the State
+1673,4,Avances conditionnées par les autres organismes africains,其他非洲机构附条件预拨款,Advances conditioned by other African organisations
+1674,4,Avances conditionnées par les organismes internationaux,国际组织附条件预拨款,Advances conditioned by international organisations
+168,3,Autres emprunts et dettes,其他借款及负债,Other borrowings and debts
+1681,4,Rentes viagères capitalisées,资本化终身年金,Capitalised life annuities
+1682,4,Billets de fonds,票据融资,Promissory notes
+1683,4,Dettes consécutives à des titres empruntés,借入证券形成负债,Debts arising from borrowed securities
+1684,4,Emprunts participatifs,参与性借款,Participating borrowings
+1685,4,Participation des travailleurs aux bénéfices,职工利润分享,Employee profit sharing
+1686,4,Emprunts et dettes contractés auprès des autres tiers,向其他第三方取得的借款及负债,Borrowings and debts contracted with other third parties
+17,2,Dettes de location acquisition,租赁购置负债,Lease-purchase liabilities
+172,3,Dettes de location acquisition/crédit-bail immobilier,租赁购置负债—不动产融资租赁,Lease-purchase liabilities on property finance leases
+173,3,Dettes de location acquisition/crédit-bail mobilier,租赁购置负债—动产融资租赁,Lease-purchase liabilities on movable finance leases
+174,3,Dettes de location acquisition/location vente,租赁购置负债—租售,Lease-purchase liabilities on hire purchase
+176,3,Intérêts courus,应计利息,Accrued interest on lease-purchase liabilities
+1762,4,sur dettes de location acquisition/ crédit-bail immobilier,不动产融资租赁负债应计利息,Accrued interest on property lease-purchase liabilities
+1763,4,sur dettes de location acquisition/ crédit-bail mobilier,动产融资租赁负债应计利息,Accrued interest on movable lease-purchase liabilities
+1764,4,sur dettes de location acquisition/ location vente,租售负债应计利息,Accrued interest on hire purchase liabilities
+1768,4,sur autres dettes de location acquisition,其他租赁购置负债应计利息,Accrued interest on other lease-purchase liabilities
+178,3,Dettes d'autres contrats de location acquisition,其他租赁购置合同负债,Liabilities on other lease-purchase contracts
+18,2,Dettes liées à des participations et comptes de liaison des établissements et sociétés en participation,参股相关负债及分支与合伙联结账户,"Liabilities related to participations, and liaison accounts of branches and joint ventures"
+181,3,Dettes liées à des participations,与参股相关的负债,Liabilities related to participations
+1811,4,Dettes liées à des participations (groupe),集团内参股相关负债,"Liabilities related to participations, group"
+1812,4,Dettes liées à des participations (hors groupe),集团外参股相关负债,"Liabilities related to participations, outside the group"
+182,3,Dettes liées à des sociétés en participation,与合伙企业相关的负债,Liabilities related to joint ventures
+183,3,Intérêts courus sur dettes liées à des participations,参股相关负债应计利息,Accrued interest on liabilities related to participations
+184,3,Comptes permanents bloqués des établissements et succursales,分支机构及分公司冻结的永久账户,Blocked permanent accounts of branches and agencies
+185,3,Comptes permanents non bloqués des établissements et succursales,分支机构及分公司未冻结的永久账户,Non-blocked permanent accounts of branches and agencies
+186,3,Comptes de liaison charges,联结账户—费用,"Liaison accounts, expenses"
+187,3,Comptes de liaison produits,联结账户—收入,Liaison accounts — income
+188,3,Comptes de liaison des sociétés en participation,合伙企业联结账户,Liaison accounts — joint ventures
+19,2,Provisions financières pour risques et charges,财务风险及费用准备金,Provisions for risks and charges (non-current)
+191,3,Provisions pour litiges,诉讼准备金,Provisions for litigation
+192,3,Provisions pour garanties données aux clients,对客户保证准备金,Provisions for warranties given to customers
+193,3,Provisions pour pertes sur marchés à achèvement futur,未来完工合同亏损准备金,Provisions for losses on contracts to be completed
+194,3,Provisions pour pertes de change,汇兑损失准备金,Provisions for foreign exchange losses
+195,3,Provisions pour impôts,税项准备金,Provisions for taxes
+196,3,Provisions pour pensions et obligations similaires,退休金及类似义务准备金,Provisions for pensions and similar obligations
+1961,4,Provisions pour pensions et obligations similaires – engagement de retraite,退休金及类似义务准备金—退休承诺,"Provisions for pensions and similar obligations, retirement commitments"
+1962,4,Actif du régime de retraite,退休计划资产,Retirement plan assets
+197,3,Provisions pour restructuration,重组准备金,Provisions for restructuring
+198,3,Autres provisions pour risques et charges,其他风险及费用准备金,Other provisions for risks and charges
+1981,4,Provisions pour amendes et pénalités,罚款及罚金准备金,Provisions for fines and penalties
+1983,4,Provisions de propre assureur,自保准备金,Provisions for self-insurance
+1984,4,Provisions pour démantèlement et remise en état,拆除及恢复原状准备金,Provisions for dismantling and site restoration
+1985,4,"Provisions de droits à déduction (Chèques cadeau, cartes de fidélité…)",抵扣权准备金（礼品券、会员卡等）,"Provisions for deduction rights, gift vouchers and loyalty cards"
+1988,4,Autres provisions pour risques et charges,其他风险及费用准备金,Other provisions for risks and charges
+21,2,Immobilisations incorporelles,无形资产,Intangible assets
+211,3,Frais de développement,开发费用,Development costs
+212,3,"Brevets, licences, concessions et droits similaires",专利、许可、特许权及类似权利,"Patents, licences, concessions and similar rights"
+2121,4,Brevets,专利,Patents
+2122,4,Licences,许可,Licences
+2123,4,Concessions de service public,公共服务特许权,Public service concessions
+2128,4,Autres concessions et droits similaires,其他特许权及类似权利,Other concessions and similar rights
+213,3,Logiciels et sites internet,软件及网站,Software and websites
+2131,4,Logiciels,软件,Software
+2132,4,Sites internet,网站,Websites
+214,3,Marques,商标,Trademarks
+215,3,Fonds commercial,商业信誉,Goodwill
+216,3,Droit au bail,租赁权,Leasehold rights
+217,3,Investissements de création,创办投资,Formation and start-up costs
+218,3,Autres droits et valeurs incorporels,其他无形权利及资产,Other intangible rights and assets
+2181,4,Frais de prospection et d'évaluation de ressources minérales,矿产资源勘探及评估费用,Mineral resource exploration and evaluation costs
+2182,4,Coûts d'obtention du contrat,合同取得成本,Contract acquisition costs
+2183,4,"Fichiers clients, notices, titres de journaux et magazines",客户名录、说明书、报刊刊名,"Customer files, manuals, newspaper and magazine titles"
+2184,4,Coûts des franchises,特许经营成本,Franchise costs
+2188,4,Divers droits et valeurs incorporelles,各项无形权利及资产,Sundry intangible rights and assets
+219,3,Immobilisations incorporelles en cours,在建无形资产,Intangible assets in progress
+2191,4,Frais de développement,开发费用,Development costs
+2193,4,Logiciels,软件,Software
+2198,4,Autres droits et valeurs incorporels,其他无形权利及资产,Other intangible rights and assets
+22,2,Terrains,土地,Land
+221,3,Terrains agricoles et forestiers,农业及林业用地,Agricultural and forestry land
+2211,4,Terrains d'exploitation agricole,农业经营用地,Land used for farming
+2212,4,Terrains d'exploitation forestière,林业经营用地,Land used for forestry
+2218,4,Autres terrains,其他用地,Other land
+222,3,Terrains nus,未开发土地,Undeveloped land
+2221,4,Terrains à bâtir,建筑用地,Building land
+2228,4,Autres terrains nus,其他未开发土地,Other undeveloped land
+223,3,Terrains bâtis,已建土地,Land with buildings
+2231,4,pour bâtiments industriels et agricoles,工业及农业建筑物用地,Land for industrial and agricultural buildings
+2232,4,pour bâtiments administratifs et commerciaux,行政及商业建筑物用地,Land for administrative and commercial buildings
+2234,4,pour bâtiments affectés aux autres opérations professionnelles,其他专业业务建筑物用地,Land for buildings used in other professional operations
+2235,4,pour bâtiments affectés aux autres opérations non professionnelles,非专业业务建筑物用地,Land for buildings used in other non-professional operations
+2238,4,Autres terrains bâtis,其他已建土地,Other land with buildings
+224,3,Travaux de mise en valeur des terrains,土地开发工程,Land development works
+2241,4,Plantations d'arbres et d'arbustes,树木及灌木种植,Tree and shrub plantations
+2245,4,Améliorations du fonds,土地改良,Land improvements
+2248,4,Autres travaux,其他工程,Other works
+225,3,Terrains carrières tréfonds,采石场及地下资源用地,Quarry land and subsoil
+2251,4,Carrières,采石场,Quarries
+226,3,Terrains aménagés,整治土地,Developed land
+2261,4,Parkings,停车场,Car parks
+227,3,Terrains mis en concession,特许经营用地,Land under concession
+228,3,Autres terrains,其他土地,Other land
+2281,4,Terrains des immeubles de placement,投资性房地产用地,Land of investment property
+2285,4,Terrains des logements affectés au personnel,职工住房用地,Land of staff housing
+2286,4,Terrain location-acquisition,租赁购置土地,Lease-purchase land
+2288,4,Autres,其他,Other
+229,3,Aménagements de terrains en cours,在建土地整治,Land improvements in progress
+2291,4,Terrains agricoles et forestiers,农业及林业用地,Agricultural and forestry land
+2292,4,Terrains nus,未开发土地,Undeveloped land
+2295,4,Terrains de carrières – tréfonds,采石场及地下资源用地,Quarry land and subsoil
+2298,4,Autres terrains,其他土地,Other land
+23,2,"Bâtiments, installations techniques et agencements",建筑物、技术设施及装修,"Buildings, technical installations and fittings"
+231,3,"Bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre",自有土地上的工业、农业、行政及商业建筑物,Buildings on own land
+2311,4,Bâtiments industriels,工业建筑物,Industrial buildings on own land
+2312,4,Bâtiments agricoles,农业建筑物,Agricultural buildings on own land
+2313,4,Bâtiments administratifs et commerciaux,行政及商业建筑物,Administrative and commercial buildings on own land
+2314,4,Bâtiments affectés au logement du personnel,职工住房建筑物,Staff housing buildings on own land
+2315,4,Immeubles de placement,投资性房地产,Investment property on own land
+2316,4,Bâtiments de location acquisition,租赁购置建筑物,Lease-purchase buildings on own land
+232,3,"Bâtiments industriels, agricoles, administratifs et commerciaux sur sol d'autrui",他人土地上的工业、农业、行政及商业建筑物,Buildings on third-party land
+2321,4,Bâtiments industriels,工业建筑物,Industrial buildings on third-party land
+2322,4,Bâtiments agricoles,农业建筑物,Agricultural buildings on third-party land
+2323,4,Bâtiments administratifs et commerciaux,行政及商业建筑物,Administrative and commercial buildings on third-party land
+2324,4,Bâtiments affectés au logement du personnel,职工住房建筑物,Staff housing buildings on third-party land
+2325,4,Immeubles de placement,投资性房地产,Investment property on third-party land
+2326,4,Bâtiment de location-acquisition,租赁购置建筑物,Lease-purchase buildings on third-party land
+233,3,Ouvrages d'infrastructure,基础设施工程,Infrastructure works
+2331,4,Voies de terre,土路,Earth roads
+2332,4,Voies de fer,铁路,Railways
+2333,4,Voies d'eau,水路,Waterways
+2334,4,"Barrages, Digues",水坝、堤坝,Dams and dykes
+2335,4,Pistes d'aérodrome,机场跑道,Airfield runways
+2338,4,Autres,其他,Other infrastructure works
+234,3,Installations techniques,技术设施,Technical installations
+2341,4,Installations complexes spécialisées sur sol propre,自有土地上的专用成套设施,Specialised complex installations on own land
+2342,4,Installations complexes spécialisées sur sol d'autrui,他人土地上的专用成套设施,Specialised complex installations on third-party land
+2343,4,Installations à caractère spécifique sur sol propre,自有土地上的特定设施,Specific-purpose installations on own land
+2344,4,Installations à caractère spécifique sur sol d'autrui,他人土地上的特定设施,Specific-purpose installations on third-party land
+2345,4,Aménagements et agencements des bâtiments,建筑物装饰及装修,Building fittings and improvements
+235,3,Aménagements de bureaux,办公室装修,Office fittings
+2351,4,Installations générales,一般设施,General installations
+2358,4,Autres,其他,Other office fittings
+237,3,"Bâtiments industriels, agricoles et commerciaux mis en concession",特许经营的工业、农业及商业建筑物,Buildings under concession
+238,3,Autres installations et agencements,其他设施及装修,Other installations and fittings
+239,3,Bâtiments et installations en cours,在建建筑物及设施,Buildings and installations in progress
+2391,4,Bâtiments en cours,在建建筑物,Buildings in progress
+2392,4,Installations en cours,在建设施,Installations in progress
+2393,4,Ouvrages d'infrastructure en cours,在建基础设施工程,Infrastructure works in progress
+2394,4,Aménagements de bureaux en cours,在建办公室装修,Office fittings in progress
+2395,4,Aménagements et agencements,装饰及装修,Fittings and improvements
+2398,4,Autres installations en cours,其他在建设施,Other installations in progress
+24,2,"Matériel, Mobilier et Actifs biologiques",设备、家具及生物资产,"Equipment, furniture and biological assets"
+241,3,Matériel et outillage industriel et commercial,工业及商业设备与工具,Industrial and commercial plant and equipment
+2411,4,Matériel industriel,工业设备,Industrial equipment
+2412,4,Outillage industriel,工业工具,Industrial tools
+2413,4,Matériel commercial,商业设备,Commercial equipment
+2414,4,Outillage commercial,商业工具,Commercial tools
+2416,4,Matériel et outillage de location acquisition,租赁购置设备及工具,Lease-purchase plant and equipment
+242,3,Matériel et outillage agricole,农业设备及工具,Agricultural plant and equipment
+2421,4,Matériel agricole,农业设备,Agricultural equipment
+2422,4,Outillage agricole,农业工具,Agricultural tools
+2426,4,Matériel et outillage agricole de location – acquisition,租赁购置农业设备及工具,Lease-purchase agricultural plant and equipment
+243,3,Matériel d'emballage récupérable et identifiable,可回收可识别包装设备,Returnable and identifiable packaging equipment
+244,3,Matériel et mobilier,设备及家具,Equipment and furniture
+2441,4,Matériel de bureau,办公设备,Office equipment
+2442,4,Matériel informatique,计算机设备,Computer equipment
+2443,4,Matériel bureautique,办公自动化设备,Office automation equipment
+2444,4,Mobilier de bureau,办公家具,Office furniture
+2446,4,Matériel et mobilier de location- acquisition,租赁购置设备及家具,Lease-purchase equipment and furniture
+2447,4,Matériel et mobilier des logements affectés au personnel,职工住房的设备及家具,Equipment and furniture of staff housing
+245,3,Matériel de transport,运输设备,Transport equipment
+2451,4,Matériel automobile,汽车,Motor vehicles
+2452,4,Matériel ferroviaire,铁路设备,Railway rolling stock
+2453,4,"Matériel fluvial, lagunaire",内河及潟湖运输设备,Inland waterway and lagoon vessels
+2454,4,Matériel naval,船舶,Sea-going vessels
+2455,4,Matériel aérien,航空器,Aircraft
+2456,4,Matériel de transport de location-acquisition,租赁购置运输设备,Lease-purchase transport equipment
+2457,4,Matériel hippomobile,畜力车,Horse-drawn vehicles
+2458,4,"Autres (vélo, mobylette, moto)",其他（自行车、轻便摩托、摩托车）,"Other transport equipment, bicycles, mopeds and motorcycles"
+246,3,Actifs biologiques,生物资产,Biological assets
+2461,4,"Cheptel, animaux de trait",役畜,Draught livestock
+2462,4,"Cheptel, animaux reproducteurs",种畜,Breeding livestock
+2463,4,Animaux de garde,护卫动物,Guard animals
+2465,4,Plantations agricoles,农业种植,Agricultural plantations
+2468,4,Autres,其他,Other biological assets
+247,3,"Agencements, aménagements du matériel et actifs biologiques",设备及生物资产的装饰与改良,Fittings and improvements to equipment and biological assets
+2471,4,Agencements et aménagements du matériel,设备的装饰与改良,Fittings and improvements to equipment
+2472,4,Agencements et aménagements des actifs biologiques,生物资产的装饰与改良,Fittings and improvements to biological assets
+2478,4,Autres agencements et aménagements,其他装饰与改良,Other fittings and improvements
+248,3,Autres matériels et mobiliers,其他设备及家具,Other equipment and furniture
+2481,4,Collections et œuvres d'art,收藏品及艺术品,Collections and works of art
+2488,4,Autres matériels et mobiliers,其他设备及家具,Other equipment and furniture
+249,3,Matériel et actifs biologiques en cours,在建设备及生物资产,Equipment and biological assets in progress
+2491,4,Matériel et outillage industriel et commercial,工业及商业设备与工具,Industrial and commercial plant and equipment in progress
+2492,4,Matériel et outillage agricole,农业设备及工具,Agricultural plant and equipment in progress
+2493,4,Matériel d'emballage récupérable et identifiable,可回收可识别包装设备,Returnable and identifiable packaging in progress
+2494,4,Matériel et mobilier de bureau,办公设备及家具,Office equipment and furniture in progress
+2495,4,Matériel de transport,运输设备,Transport equipment in progress
+2496,4,Actifs biologiques,生物资产,Biological assets in progress
+2497,4,Agencements et aménagements du matériel et des actifs biologiques,设备及生物资产的装饰与改良,Fittings and improvements to equipment and biological assets in progress
+2498,4,Autres matériels,其他设备,Other equipment in progress
+25,2,Avances et acomptes versés sur immobilisations,固定资产预付款,Advances and deposits on non-current assets
+251,3,Avances et acomptes versés sur immobilisations incorporelles,无形资产预付款,Advances and deposits on intangible assets
+252,3,Avances et acomptes versés sur immobilisations corporelles,有形资产预付款,Advances and deposits on tangible assets
+26,2,Titres de participation,参股证券,Investments in associates and other participations
+261,3,Titres de participation dans des sociétés sous contrôle exclusif,独家控制公司参股证券,Participations in exclusively controlled companies
+262,3,Titres de participation dans des sociétés sous contrôle conjoint,共同控制公司参股证券,Participations in jointly controlled companies
+263,3,Titres de participation dans des sociétés conférant une influence notable,具有重大影响公司参股证券,Participations in companies under significant influence
+265,3,Participations dans des organismes professionnels,专业机构参股,Participations in professional organisations
+266,3,Parts dans des groupements d'intérêt économique (G.I.E.),经济利益集团份额,Interests in economic interest groupings
+268,3,Autres titres de participation,其他参股证券,Other participations
+27,2,Autres immobilisations financières,其他金融资产,Other financial assets
+271,3,Prêts et créances,贷款及债权,Loans and receivables
+2711,4,Prêts participatifs,参与性贷款,Participating loans
+2712,4,Prêts aux associés,对股东的贷款,Loans to shareholders
+2713,4,Billets de fonds,票据融资,Promissory notes
+2714,4,Créances de location financement,融资租赁债权,Finance lease receivables
+2715,4,Titres prêtés,借出证券,Securities lent
+2718,4,Autres prêts,其他贷款,Other loans
+272,3,Prêts au personnel,对职工的贷款,Loans to employees
+2721,4,Prêts immobiliers,不动产贷款,Property loans
+2722,4,Prêts mobiliers et d'installation,动产及安置贷款,Movable and installation loans
+2728,4,Autres prêts (frais d'études),其他贷款（学习费用）,Other loans for study expenses
+273,3,Créances sur l'État,对国家债权,Receivables from the State
+2731,4,Retenues de garantie,保证保留金,Guarantee retentions
+2733,4,Fonds réglementé,管制基金,Regulated funds
+2734,4,Créances sur le concédant,对特许权授予方的债权,Receivables from the grantor
+2738,4,Autres,其他,Other receivables from the State
+274,3,Titres immobilisés,长期持有证券,Long-term investment securities
+2741,4,Titres immobilisés de l'activité de portefeuille (T.I.A.P.),证券组合活动长期持有证券,Portfolio activity investment securities
+2742,4,Titres participatifs,参与性证券,Participating securities
+2743,4,Certificats d'investissement,投资凭证,Investment certificates
+2744,4,Parts de fonds commun de placement (F.C.P.),共同投资基金份额,Units in mutual funds
+2745,4,Obligations,债券,Bonds
+2746,4,Actions ou parts propres,自有股票或股份,Own shares or units
+2748,4,Autres titres immobilisés,其他长期持有证券,Other long-term investment securities
+275,3,Dépôts et cautionnements versés,支付的保证金及押金,Deposits and guarantees paid
+2751,4,Dépôts pour loyers d'avance,预付租金保证金,Deposits for rent paid in advance
+2752,4,Dépôts pour l'électricité,电费保证金,Electricity deposits
+2753,4,Dépôts pour l'eau,水费保证金,Water deposits
+2754,4,Dépôts pour le gaz,燃气费保证金,Gas deposits
+2755,4,"Dépôts pour le téléphone, le télex, la télécopie",电话、电传、传真保证金,"Telephone, telex and fax deposits"
+2756,4,Cautionnements sur marchés publics,公共工程押金,Guarantees on public contracts
+2757,4,Cautionnements sur autres opérations,其他业务押金,Guarantees on other operations
+2758,4,Autres dépôts et cautionnements,其他保证金及押金,Other deposits and guarantees
+276,3,Intérêts courus,应计利息,Accrued interest on financial assets
+2761,4,Prêts et créances non commerciales,非商业贷款及债权,Accrued interest on non-trading loans and receivables
+2762,4,Prêts au personnel,对职工的贷款,Accrued interest on loans to employees
+2763,4,Créances sur l'État,对国家债权,Accrued interest on receivables from the State
+2764,4,Titres immobilisés,长期持有证券,Accrued interest on long-term investment securities
+2765,4,Dépôts et cautionnements versés,支付的保证金及押金,Accrued interest on deposits and guarantees paid
+2766,4,Créances de location financement,融资租赁债权,Accrued interest on finance lease receivables
+2767,4,Créances rattachées à des participations,与参股相关的债权,Accrued interest on receivables related to participations
+2768,4,Immobilisations financières diverses,各项金融资产,Accrued interest on sundry financial assets
+277,3,Créances rattachées à des participations et avances à des G.I.E.,与参股相关的债权及对经济利益集团的预付款,Receivables related to participations and advances to economic interest groupings
+2771,4,Créances rattachées à des participations (groupe),与参股相关的债权（集团内）,"Receivables related to participations, group"
+2772,4,Créances rattachées à des participations (hors groupe),与参股相关的债权（集团外）,"Receivables related to participations, outside the group"
+2773,4,Créances rattachées à des sociétés en participation,与合伙企业相关的债权,Receivables related to joint ventures
+2774,4,Avances à des groupements d'intérêt économique (G.I.E.),对经济利益集团的预付款,Advances to economic interest groupings
+278,3,Immobilisations financières diverses,各项金融资产,Sundry financial assets
+2781,4,Créances diverses groupe,集团内各项债权,Sundry group receivables
+2782,4,Créances diverses hors groupe,集团外各项债权,Sundry receivables outside the group
+2784,4,Banques dépôt à terme,银行定期存款,Bank term deposits
+2785,4,Or et métaux précieux,黄金及贵金属,Gold and precious metals
+2788,4,Autres immobilisations financières,其他金融资产,Other financial assets
+28,2,Amortissements,折旧,Accumulated depreciation
+281,3,Amortissements des immobilisations incorporelles,无形资产折旧,Accumulated depreciation of intangible assets
+2811,4,Amortissements des frais de développement,开发费用折旧,Accumulated depreciation of development costs
+2812,4,"Amortissements des brevets, licences, concessions et droits similaires",专利、许可、特许权及类似权利折旧,"Accumulated depreciation of patents, licences, concessions and similar rights"
+2813,4,Amortissements des logiciels et sites internet,软件及网站折旧,Accumulated depreciation of software and websites
+2814,4,Amortissements des marques,商标折旧,Accumulated depreciation of trademarks
+2815,4,Amortissements du fonds commercial,商业信誉折旧,Accumulated depreciation of goodwill
+2816,4,Amortissements du droit au bail,租赁权折旧,Accumulated depreciation of leasehold rights
+2817,4,Amortissements des investissements de création,创办投资折旧,Accumulated depreciation of formation costs
+2818,4,Amortissements des autres droits et valeurs incorporels,其他无形权利及资产折旧,Accumulated depreciation of other intangible assets
+282,3,Amortissements des terrains,土地折旧,Accumulated depreciation of land
+2824,4,Amortissements des travaux de mise en valeur des terrains,土地开发工程折旧,Accumulated depreciation of land development works
+283,3,"Amortissements des bâtiments, installations techniques et agencements",建筑物、技术设施及装修折旧,"Accumulated depreciation of buildings, technical installations and fittings"
+2831,4,"Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre",自有土地上工业、农业、行政及商业建筑物折旧,Accumulated depreciation of buildings on own land
+2832,4,"Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d'autrui",他人土地上工业、农业、行政及商业建筑物折旧,Accumulated depreciation of buildings on third-party land
+2833,4,Amortissements des ouvrages d'infrastructure,基础设施工程折旧,Accumulated depreciation of infrastructure works
+2834,4,"Amortissements des aménagements, agencements et installations techniques",装饰、装修及技术设施折旧,"Accumulated depreciation of fittings, improvements and technical installations"
+2835,4,Amortissements des aménagements de bureaux,办公室装修折旧,Accumulated depreciation of office fittings
+2837,4,"Amortissements de bâtiments industriels, agricoles et commerciaux mis en concession",特许经营工业、农业及商业建筑物折旧,Accumulated depreciation of buildings under concession
+2838,4,Amortissements des autres installations et agencements,其他设施及装修折旧,Accumulated depreciation of other installations and fittings
+284,3,Amortissements du matériel,设备折旧,Accumulated depreciation of equipment
+2841,4,Amortissements du matériel et outillage industriel et commercial,工业及商业设备与工具折旧,Accumulated depreciation of industrial and commercial plant and equipment
+2842,4,Amortissements du matériel et outillage agricole,农业设备及工具折旧,Accumulated depreciation of agricultural plant and equipment
+2843,4,Amortissements du matériel d'emballage récupérable et identifiable,可回收可识别包装设备折旧,Accumulated depreciation of returnable and identifiable packaging
+2844,4,Amortissements du matériel et mobilier,设备及家具折旧,Accumulated depreciation of equipment and furniture
+2845,4,Amortissements du matériel de transport,运输设备折旧,Accumulated depreciation of transport equipment
+2846,4,Amortissements des actifs biologiques,生物资产折旧,Accumulated depreciation of biological assets
+2847,4,Amortissements des agencements et aménagements du matériel et des actifs biologiques,设备及生物资产装饰与改良折旧,Accumulated depreciation of fittings and improvements to equipment and biological assets
+2848,4,Amortissements des autres matériels,其他设备折旧,Accumulated depreciation of other equipment
+29,2,Dépréciations,减值,Impairment of non-current assets
+291,3,Dépréciations des immobilisations incorporelles,无形资产减值,Impairment of intangible assets
+2911,4,Dépréciations des frais de développement,开发费用减值,Impairment of development costs
+2912,4,"Dépréciations des brevets, licences, marques concessions et droits similaires",专利、许可、商标、特许权及类似权利减值,"Impairment of patents, licences, trademarks, concessions and similar rights"
+2913,4,Dépréciations des logiciels et sites internet,软件及网站减值,Impairment of software and websites
+2914,4,Dépréciations des marques,商标减值,Impairment of trademarks
+2915,4,Dépréciations du fonds commercial,商业信誉减值,Impairment of goodwill
+2916,4,Dépréciations du droit au bail,租赁权减值,Impairment of leasehold rights
+2917,4,Dépréciations des investissements de création,创办投资减值,Impairment of formation costs
+2918,4,Dépréciations des autres droits et valeurs incorporels,其他无形权利及资产减值,Impairment of other intangible rights and assets
+2919,4,Dépréciations des immobilisations incorporelles en cours,在建无形资产减值,Impairment of intangible assets in progress
+292,3,Dépréciations des terrains,土地减值,Impairment of land
+2921,4,Dépréciations des terrains agricoles et forestiers,农业及林业用地减值,Impairment of agricultural and forestry land
+2922,4,Dépréciations des terrains nus,未开发土地减值,Impairment of undeveloped land
+2923,4,Dépréciations des terrains bâtis,已建土地减值,Impairment of land with buildings
+2924,4,Dépréciations des travaux de mise en valeur des terrains,土地开发工程减值,Impairment of land development works
+2925,4,Dépréciations des terrains de gisement,矿藏用地减值,Impairment of mineral deposit land
+2926,4,Dépréciations des terrains aménagés,整治土地减值,Impairment of developed land
+2927,4,Dépréciations des terrains mis en concession,特许经营用地减值,Impairment of land under concession
+2928,4,Dépréciations des autres terrains,其他土地减值,Impairment of other land
+2929,4,Dépréciations des aménagements de terrains en cours,在建土地整治减值,Impairment of land improvements in progress
+293,3,"Dépréciations des bâtiments, installations techniques et agencements",建筑物、技术设施及装修减值,"Impairment of buildings, technical installations and fittings"
+2931,4,"Dépréciations des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre",自有土地上工业、农业、行政及商业建筑物减值,Impairment of buildings on own land
+2932,4,"Dépréciations des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d'autrui",他人土地上工业、农业、行政及商业建筑物减值,Impairment of buildings on third-party land
+2933,4,Dépréciations des ouvrages d'infrastructures,基础设施工程减值,Impairment of infrastructure works
+2934,4,"Dépréciations des aménagements, agencements et installations techniques",装饰、装修及技术设施减值,"Impairment of fittings, improvements and technical installations"
+2935,4,Dépréciations des aménagements de bureaux,办公室装修减值,Impairment of office fittings
+2937,4,"Dépréciations des bâtiments industriels, agricoles et commerciaux mis en concession",特许经营工业、农业及商业建筑物减值,Impairment of buildings under concession
+2938,4,Dépréciations des autres installations et agencements,其他设施及装修减值,Impairment of other installations and fittings
+2939,4,Dépréciations des bâtiments et installations en cours,在建建筑物及设施减值,Impairment of buildings and installations in progress
+294,3,"Dépréciations du matériel, du mobilier et de l'actif biologique",设备、家具及生物资产减值,"Impairment of equipment, furniture and biological assets"
+2941,4,Dépréciations du matériel et outillage industriel et commercial,工业及商业设备与工具减值,Impairment of industrial and commercial plant and equipment
+2942,4,Dépréciations du matériel et outillage agricole,农业设备及工具减值,Impairment of agricultural plant and equipment
+2943,4,Dépréciations du matériel d'emballage récupérable et identifiable,可回收可识别包装设备减值,Impairment of returnable and identifiable packaging
+2944,4,Dépréciations du matériel et mobilier,设备及家具减值,Impairment of equipment and furniture
+2945,4,Dépréciations du matériel de transport,运输设备减值,Impairment of transport equipment
+2946,4,Dépréciations des actifs biologiques,生物资产减值,Impairment of biological assets
+2947,4,Dépréciations des agencements et aménagements du matériel et des actifs biologiques,设备及生物资产装饰与改良减值,Impairment of fittings and improvements to equipment and biological assets
+2948,4,Dépréciations des autres matériels,其他设备减值,Impairment of other equipment
+2949,4,Dépréciations du matériel en cours,在建设备减值,Impairment of equipment in progress
+295,3,Dépréciations des avances et acomptes versés sur immobilisations,固定资产预付款减值,Impairment of advances and deposits on non-current assets
+2951,4,Dépréciations des avances et acomptes versés sur immobilisations incorporelles,无形资产预付款减值,Impairment of advances and deposits on intangible assets
+2952,4,Dépréciations des avances et acomptes versés sur immobilisations corporelles,有形资产预付款减值,Impairment of advances and deposits on tangible assets
+296,3,Dépréciations des titres de participation,参股证券减值,Impairment of investment securities in participating interests
+2961,4,Dépréciations des titres de participation dans des sociétés sous contrôle exclusif,独家控制公司参股证券减值,Impairment of participations in exclusively controlled companies
+2962,4,Dépréciations des titres de participation dans les sociétés sous contrôle conjoint,共同控制公司参股证券减值,Impairment of participations in jointly controlled companies
+2963,4,Dépréciations des titres de participation dans les sociétés conférant une influence notable,具有重大影响公司参股证券减值,Impairment of participations in companies under significant influence
+2965,4,Dépréciations des participations dans des organismes professionnels,专业机构参股减值,Impairment of participations in professional organisations
+2966,4,Dépréciations des parts dans des G.I.E.,经济利益集团份额减值,Impairment of interests in economic interest groupings
+2968,4,Dépréciations des autres titres de participation,其他参股证券减值,Impairment of other participating interests
+297,3,Dépréciations des autres immobilisations financières,其他金融资产减值,Impairment of other financial assets
+2971,4,Dépréciations des prêts et créances,贷款及债权减值,Impairment of loans and receivables
+2972,4,Dépréciations des prêts au personnel,对职工的贷款减值,Impairment of loans to employees
+2973,4,Dépréciations des créances sur l'État,对国家债权减值,Impairment of receivables from the State
+2974,4,Dépréciations des titres immobilisés,长期持有证券减值,Impairment of long-term investment securities
+2975,4,Dépréciations des dépôts et cautionnements versés,支付的保证金及押金减值,Impairment of deposits and guarantees paid
+2977,4,Dépréciations des créances rattachées à des participations et avances à des G.I.E.,与参股相关的债权及对经济利益集团预付款减值,Impairment of receivables related to participations and advances to economic interest groupings
+2978,4,Dépréciations des créances financières diverses,各项金融债权减值,Impairment of sundry financial receivables
+31,2,Marchandises,商品,Merchandise
+311,3,Marchandises A,商品 A,Merchandise A
+3111,4,Marchandises A1,商品 A1,Merchandise A - A1
+3112,4,Marchandises A2,商品 A2,Merchandise A - A2
+312,3,Marchandises B,商品 B,Merchandise B
+3121,4,Marchandises B1,商品 B1,Merchandise B - B1
+3122,4,Marchandises B2,商品 B2,Merchandise B - B2
+318,3,Marchandises hors activités ordinaires (H.A.O.),非经常性活动商品,Merchandise — non-ordinary activities
+32,2,Matières premières et fournitures liées,原材料及关联供应品,Raw materials and related supplies
+321,3,Matières A,原料 A,Raw material A
+322,3,Matières B,原料 B,Raw material B
+323,3,"Fournitures (A, B)",供应品（A、B）,"Supplies (A, B)"
+33,2,Autres approvisionnements,其他物料,Other supplies
+331,3,Matières consommables,消耗性材料,Consumable materials
+332,3,Fournitures d'atelier et d'usine,车间及工厂用品,Workshop and factory supplies
+333,3,Fournitures de magasin,仓库用品,Store supplies
+334,3,Fournitures de bureau,办公用品,Office supplies
+335,3,Emballages,包装物,Packaging
+3351,4,Emballages perdus,一次性包装物,Non-returnable packaging
+3352,4,Emballages récupérables non identifiables,不可识别的可回收包装物,Returnable non-identifiable packaging
+3353,4,Emballages à usage mixte,混合用途包装物,Mixed-use packaging
+3358,4,Autres emballages,其他包装物,Other packaging
+338,3,Autres matières,其他材料,Other materials
+34,2,Produits en cours,在产品,Work in progress — goods
+341,3,Produits en cours,在产品,Goods in progress
+3411,4,Produits en cours P1,在产品 P1,Goods in progress - P1
+3412,4,Produits en cours P2,在产品 P2,Goods in progress - P2
+342,3,Travaux en cours,在建工程,Construction work in progress
+3421,4,Travaux en cours T1,在建工程 T1,Construction work in progress - T1
+3422,4,Travaux en cours T2,在建工程 T2,Construction work in progress - T2
+343,3,Produits intermédiaires en cours,半成品在制,Semi-finished goods in progress
+3431,4,Produits intermédiaires A,半成品 A,Semi-finished goods in progress - A
+3432,4,Produits intermédiaires B,半成品 B,Semi-finished goods in progress - B
+344,3,Produits résiduels en cours,残料在制,Residual products in progress
+3441,4,Produits résiduels A,残料 A,Residual products in progress - A
+3442,4,Produits résiduels B,残料 B,Residual products in progress - B
+35,2,Services en cours,在提供劳务,Work in progress — services
+351,3,Études en cours,在研项目,Studies in progress
+3511,4,Études en cours E1,在研项目 E1,Studies in progress - E1
+3512,4,Études en cours E2,在研项目 E2,Studies in progress - E2
+352,3,Prestations de services en cours,在提供劳务,Services in progress
+3521,4,Prestations de services S1,在提供劳务 S1,Services in progress - S1
+3522,4,Prestations de services S2,在提供劳务 S2,Services in progress - S2
+36,2,Produits finis,产成品,Finished goods
+361,3,Produits finis A,产成品 A,Finished goods A
+362,3,Produits finis B,产成品 B,Finished goods B
+363,3,Produits finis C,产成品 C,Finished goods C
+364,3,Produits finis : Briques,产成品：砖,Finished goods: Bricks
+37,2,Produits intermédiaires et résiduels,半成品及残料,Semi-finished and residual products
+371,3,Produits intermédiaires,半成品,Semi-finished products
+3711,4,Produits intermédiaires A,半成品 A,Semi-finished products - A
+3712,4,Produits intermédiaires B,半成品 B,Semi-finished products - B
+372,3,Produits résiduels,残料,Residual products
+3721,4,Déchets,废料,Scrap
+3722,4,Rebuts,废品,Rejects
+3723,4,Matières de Récupération,回收材料,Recovered materials
+38,2,"Stocks en cours de route, en consignation ou en dépôt",在途、寄售或代管存货,"Goods in transit, on consignment or on deposit"
+381,3,Marchandises en cours de route,在途商品,Merchandise in transit
+382,3,Matières premières et fournitures liées en cours de route,在途原材料及关联供应品,Raw materials in transit
+383,3,Autres approvisionnements en cours de route,在途其他物料,Other supplies in transit
+386,3,Produits finis en cours de route,在途产成品,Finished goods in transit
+387,3,Stock en consignation ou en dépôt,寄售或代管存货,Inventory on consignment or on deposit
+3871,4,Stock en consignation,寄售存货,Inventory on consignment
+3872,4,Stock en dépôt,代管存货,Inventory on deposit
+388,3,Stock provenant d'immobilisations mises hors service ou au rebut,停用或报废固定资产形成的存货,Inventory from decommissioned non-current assets
+39,2,Dépréciations des stocks,存货跌价准备,Impairment of inventories
+391,3,Dépréciations des stocks de marchandises,商品跌价准备,Impairment — merchandise
+392,3,Dépréciations des stocks de matières premières et fournitures liées,原材料及关联供应品跌价准备,Impairment — raw materials and related supplies
+393,3,Dépréciations des stocks d'autres approvisionnements,其他物料跌价准备,Impairment — other supplies
+394,3,Dépréciations des produits en cours,在产品跌价准备,Impairment — goods in progress
+395,3,Dépréciations des services en cours,在提供劳务跌价准备,Impairment — services in progress
+396,3,Dépréciations des stocks de produits finis,产成品跌价准备,Impairment — finished goods
+397,3,Dépréciations des stocks de produits intermédiaires et résiduels,半成品及残料跌价准备,Impairment — semi-finished and residual products
+398,3,"Dépréciations des stocks en cours de route, en consignation ou en dépôt",在途、寄售或代管存货跌价准备,"Impairment — goods in transit, on consignment or on deposit"
+40,2,Fournisseurs et comptes rattachés,供应商及关联账户,Suppliers and related accounts
+401,3,"Fournisseurs, dettes en compte",供应商—应付账款,"Suppliers, trade payables"
+4011,4,Fournisseurs,供应商,Suppliers
+4012,4,Fournisseurs-Groupe,集团内供应商,Group suppliers
+4013,4,Fournisseurs sous-traitants,分包供应商,Subcontractor suppliers
+4017,4,"Fournisseurs, retenues de garantie",供应商保证保留金,"Suppliers, guarantee retentions"
+402,3,"Fournisseurs, effets à payer",供应商—应付票据,"Suppliers, notes payable"
+4021,4,"Fournisseurs, Effets à payer",供应商应付票据,"Suppliers, notes payable"
+4022,4,"Fournisseurs-Groupe, Effets à payer",集团内供应商应付票据,"Group suppliers, notes payable"
+4023,4,"Fournisseurs sous-traitants, Effets à payer",分包供应商应付票据,"Subcontractor suppliers, notes payable"
+408,3,"Fournisseurs, factures non parvenues",供应商—未到票,"Suppliers, invoices not received"
+4081,4,Fournisseurs,供应商未到票,"Suppliers, invoices not received"
+4082,4,Fournisseurs-Groupe,集团内供应商未到票,"Group suppliers, invoices not received"
+4083,4,Fournisseurs sous-traitants,分包供应商未到票,"Subcontractor suppliers, invoices not received"
+4086,4,"Fournisseurs, intérêts courus",供应商应计利息,"Suppliers, accrued interest"
+409,3,Fournisseurs débiteurs,供应商（借方）,"Suppliers, debit balances"
+4091,4,Fournisseurs avances et acomptes versés,供应商预付及预付款,Advances and deposits paid to suppliers
+4092,4,"Fournisseurs-Groupe, avances et acomptes versés",集团内供应商预付及预付款,Advances and deposits paid to group suppliers
+4093,4,"Fournisseurs sous-traitants, avances et acomptes versés",分包供应商预付及预付款,Advances and deposits paid to subcontractor suppliers
+4094,4,"Fournisseurs, créances pour emballages et matériels à rendre",供应商—应退包装物及材料债权,Receivables for packaging and materials to be returned
+4098,4,"Rabais, Remises, Ristournes et autres avoirs à obtenir",应取得折让、折扣、回佣及其他抵扣,"Rebates, discounts and other credit notes to be obtained"
+41,2,Clients et comptes rattachés,客户及关联账户,Customers and related accounts
+411,3,Clients,客户,"Customers, trade receivables"
+4111,4,Clients,客户,Customers
+4112,4,Clients-Groupe,集团内客户,Group customers
+4114,4,"Clients, Etat et collectivités publiques",客户—国家及公共团体,"Customers, State and public authorities"
+4115,4,"Clients, organismes internationaux",客户—国际组织,"Customers, international organisations"
+4116,4,Clients ventes avec réserves de propriété,客户—所有权保留销售,"Customers, sales with retention of title"
+4117,4,"Clients, retenues de garantie",客户保证保留金,"Customers, guarantee retentions"
+4118,4,"Clients, dégrèvements de Taxes sur la Valeur Ajoutée (T.V.A.)",客户—增值税减免,"Customers, value added tax rebates"
+412,3,"Clients, effets à recevoir en portefeuille",客户—持有应收票据,"Customers, notes receivable held in portfolio"
+4121,4,"Clients, Effets à recevoir",客户应收票据,"Customers, notes receivable"
+4122,4,"Clients-Groupe, Effets à recevoir",集团内客户应收票据,"Group customers, notes receivable"
+4124,4,"Etat et collectivités publiques, Effets à recevoir",国家及公共团体应收票据,"State and public authorities, notes receivable"
+4125,4,"Organismes internationaux, Effets à recevoir",国际组织应收票据,"International organisations, notes receivable"
+4126,4,"clients ventes avec réserves de propriété, effets à recevoir",所有权保留销售客户应收票据,"Customers with retention of title, notes receivable"
+414,3,Créances sur cessions courantes d'immobilisations,经常性固定资产处置债权,Receivables on ordinary disposals of non-current assets
+4141,4,Créances en compte,应收账款,Receivables on account
+4142,4,Effets à recevoir,应收票据,Notes receivable
+415,3,"Clients, effets escomptés non échus",客户—已贴现未到期票据,Customers — discounted notes not yet matured
+416,3,Créances clients litigieuses ou douteuses,客户争议或呆滞债权,Doubtful or disputed customer receivables
+4161,4,Créances litigieuses,争议债权,Disputed receivables
+4162,4,Créances douteuses,呆滞债权,Doubtful receivables
+418,3,"Clients, produits à recevoir",客户—应收收入,"Customers, income receivable"
+4181,4,"Clients, factures à établir",客户—待开票,"Customers, invoices to be issued"
+4186,4,"Clients, intérêts courus",客户应计利息,"Customers, accrued interest"
+419,3,Clients créditeurs,客户（贷方）,"Customers, credit balances"
+4191,4,"Clients, avances et acomptes reçus",客户预收及预收款,Advances and deposits received from customers
+4192,4,"Clients-Groupe, avances et acomptes reçus",集团内客户预收及预收款,Advances and deposits received from group customers
+4194,4,"Clients, dettes pour emballages et matériels consignés",客户—代管包装物及材料负债,Liabilities for packaging and materials held on consignment
+4198,4,"Rabais, Remises, Ristournes et autres avoirs à accorder",应给予折让、折扣、回佣及其他抵扣,"Rebates, discounts and other credit notes to be granted"
+42,2,Personnel,职工,Personnel
+421,3,"Personnel, avances et acomptes",职工预支及预付款,"Employees, advances and down payments"
+4211,4,"Personnel, avances",职工预支,Employee advances
+4212,4,"Personnel, acomptes",职工预付款,Employee down payments
+4213,4,Frais avancés et fournitures au personnel,代垫费用及提供给职工的物品,Expenses advanced and supplies to employees
+422,3,"Personnel, rémunérations dues",职工应付薪酬,Personnel — remuneration payable
+423,3,"Personnel, oppositions, saisies-arrêts",职工—异议、扣发工资,"Employees, attachments and garnishments"
+4231,4,"Personnel, oppositions",职工异议,Employee attachments
+4232,4,"Personnel, saisies-arrêts",扣发工资,Employee wage garnishments
+4233,4,"Personnel, avis à tiers détenteur",第三人持有通知,Third-party holder notices
+424,3,"Personnel, œuvres sociales internes",职工—内部福利事业,Internal employee welfare schemes
+4241,4,Assistance médicale,医疗补助,Medical assistance
+4242,4,Allocations familiales,家庭补贴,Family allowances
+4245,4,Organismes sociaux rattachés à l'entité,单位附属福利机构,Social organisations attached to the entity
+4248,4,Autres œuvres sociales internes,其他内部福利事业,Other internal welfare schemes
+425,3,Représentants du personnel,职工代表,Employee representatives
+4251,4,Délégués du personnel,职工代表,Employee delegates
+4252,4,"Syndicats et Comités d'entreprise, d'établissement",工会及企业、机构委员会,Trade unions and works councils
+4258,4,Autres représentants du personnel,其他职工代表,Other employee representatives
+426,3,"Personnel, participation aux bénéfices et au capital",职工—利润分享及资本参与,Employee profit sharing and capital participation
+4261,4,Participation aux bénéfices,利润分享,Profit sharing
+4264,4,Participation au capital,资本参与,Capital participation
+427,3,Personnel - dépôts,职工—保证金,Personnel — deposits
+428,3,"Personnel, charges à payer et produits à recevoir",职工—应付费用及应收收入,"Employees, accrued charges and accrued income"
+4281,4,Dettes provisionnées pour congés à payer,应付休假预提负债,Provision for holiday pay
+4286,4,Autres charges à payer,其他应付费用,Other accrued charges
+4287,4,Produits à recevoir,应收收入,Accrued income
+43,2,Organismes sociaux,社会保险机构,Social security organisations
+431,3,Sécurité sociale,社会保险,Social security
+4311,4,Prestations familiales,家庭津贴,Family benefits
+4312,4,Accidents du travail,工伤,Work accident insurance
+4313,4,Caisse de retraite obligatoire,法定退休金,Statutory pension fund
+4314,4,Caisse de retraite facultative,自愿退休金,Voluntary pension fund
+4318,4,Autres cotisations sociales,其他社保缴费,Other social security contributions
+432,3,Caisses de retraite complémentaire,补充退休金机构,Supplementary pension funds
+433,3,Autres organismes sociaux,其他社会机构,Other social organisations
+4331,4,Mutuelle,互助会,Mutual insurance society
+4332,4,Assurances retraite,退休保险,Retirement insurance
+4333,4,Assurances et organismes de santé,健康保险及机构,Health insurance and health organisations
+438,3,"Organismes sociaux, charges à payer et produits à recevoir",社会保险机构—应付费用及应收收入,"Social organisations, accrued charges and accrued income"
+4381,4,Charges sociales sur gratifications à payer,应付奖金的社会保险费,Social charges on bonuses payable
+4382,4,Charges sociales sur congés à payer,应付休假的社会保险费,Social charges on holiday pay
+4386,4,Autres charges à payer,其他应付费用,Other accrued charges
+4387,4,Produits à recevoir,应收收入,Accrued income
+44,2,État et collectivités publiques,国家及公共团体,Government and public authorities
+441,3,"Etat, impôt sur les bénéfices",国家—所得税,State — income tax
+442,3,"Etat, autres impôts et taxes",国家—其他税费,"State, other taxes and duties"
+4421,4,Impôts et taxes d'Etat,国家税费,State taxes and duties
+4422,4,Impôts et taxes pour les collectivités publiques,公共团体税费,Taxes and duties for public authorities
+4423,4,Impôts et taxes recouvrables sur des obligataires,可向债券持有人收取的税费,Taxes and duties recoverable from bondholders
+4424,4,Impôts et taxes recouvrables sur des associés,可向股东收取的税费,Taxes and duties recoverable from shareholders
+4426,4,Droits de douane,关税,Customs duties
+4428,4,Autres impôts et taxes,其他税费,Other taxes and duties
+443,3,"Etat, TVA facturée",国家—已开票增值税,"State, output value added tax invoiced"
+4431,4,TVA facturée sur ventes,销售已开票增值税,Output value added tax on sales
+4432,4,TVA facturée sur prestations de services,劳务已开票增值税,Output value added tax on services
+4433,4,TVA facturée sur travaux,工程已开票增值税,Output value added tax on works
+4434,4,TVA facturée sur production livrée à soi-même,自供产品已开票增值税,Output value added tax on production delivered to own use
+4435,4,TVA sur factures à établir,待开票增值税,Value added tax on invoices to be issued
+444,3,"Etat, TVA due ou crédit de TVA",国家—应交增值税或增值税贷方,"State, value added tax payable or value added tax credit"
+4441,4,"Etat, TVA due",应交增值税,Value added tax payable
+4449,4,"Etat, crédit de TVA à reporter",待结转增值税贷方,Value added tax credit to be carried forward
+445,3,"Etat, TVA récupérable",国家—可抵扣增值税,"State, input value added tax recoverable"
+4451,4,TVA récupérable sur immobilisations,固定资产可抵扣增值税,Input value added tax on non-current assets
+4452,4,TVA récupérable sur achats,采购可抵扣增值税,Input value added tax on purchases
+4453,4,TVA récupérable sur transport,运输可抵扣增值税,Input value added tax on transport
+4454,4,TVA récupérable sur services extérieurs et autres charges,外部服务及其他费用可抵扣增值税,Input value added tax on external services and other charges
+4455,4,TVA récupérable sur factures non parvenues,未到票可抵扣增值税,Input value added tax on invoices not received
+4456,4,TVA transférée par d'autres entreprises,其他企业转来的增值税,Value added tax transferred by other entities
+446,3,"Etat, autres taxes sur le chiffre d'affaires",国家—其他流转税,State — other turnover taxes
+447,3,"Etat, impôts retenus à la source",国家—代扣税,"State, taxes withheld at source"
+4471,4,Impôt Général sur le revenu,一般所得税,General income tax
+4472,4,Impôts sur salaires,工资税,Payroll taxes
+4473,4,Contribution nationale,国家税捐,National contribution
+4474,4,Contribution nationale de solidarité,国家团结税捐,National solidarity contribution
+4478,4,Autres impôts et contributions,其他税捐,Other taxes and contributions
+448,3,"Etat, charges à payer et produits à recevoir",国家—应付费用及应收收入,"State, accrued charges and accrued income"
+4486,4,Charges à payer,应付费用,Accrued charges
+4487,4,Produits à recevoir,应收收入,Accrued income
+449,3,"Etat, créances et dettes diverses",国家—各项债权债务,"State, sundry receivables and payables"
+4491,4,"Etat, obligations cautionnées",国家—担保债券,Guaranteed bonds
+4492,4,"Etat, avances et acomptes versés sur impôts",国家—预缴税款,Advances and deposits paid on taxes
+4493,4,"Etat, fonds de dotation à recevoir",国家—应收捐赠基金,"State, endowment funds receivable"
+4494,4,"Etat, subventions d'équipement à recevoir",国家—应收设备补助,Equipment grants receivable
+4495,4,"Etat, subventions d'exploitation à recevoir",国家—应收经营补助,Operating grants receivable
+4496,4,"Etat, subventions d'équilibre à recevoir",国家—应收平衡补助,Equalisation subsidies receivable
+4497,4,Etat avances sur subventions,国家预拨补助,Advances on subsidies
+4499,4,"Etat, fonds réglementé provisionné",国家—预提的管制基金,Provisioned regulated funds
+45,2,Organismes internationaux,国际组织,International organisations
+451,3,Opérations avec les organismes africains,与非洲机构的业务,Transactions with African organisations
+452,3,Opérations avec les autres organismes internationaux,与其他国际组织的业务,Transactions with other international organisations
+458,3,"Organismes internationaux, fonds de dotation et subventions à recevoir",国际组织—应收捐赠基金及补助,"International organisations, endowment funds and subsidies receivable"
+4581,4,"Organismes internationaux, fonds de dotation à recevoir",国际组织应收捐赠基金,"International organisations, endowment funds receivable"
+4582,4,"Organismes internationaux, subventions à recevoir",国际组织应收补助,Subsidies receivable
+46,2,"Apporteurs, Associés et Groupe",出资人、股东及集团,"Founders, shareholders and group"
+461,3,"Apporteurs, opérations sur le capital",出资人—资本业务,"Contributors, capital transactions"
+4611,4,"Apporteurs, apports en nature",出资人实物出资,Contributions in kind
+4612,4,"Apporteurs, apports en numéraire",出资人现金出资,Cash contributions
+4613,4,"Apporteurs, capital souscrit appelé non versé",出资人已催缴未缴股本,Subscribed capital called up but not paid
+4614,4,"Apporteurs, capital appelé non versé",出资人已催缴未缴资本,Capital called up but not paid
+4615,4,"Apporteurs, versements reçus sur augmentation de capital",出资人增资已收款,Payments received on capital increase
+4616,4,"Apporteurs, versements anticipés",出资人预缴款,Advance payments
+4617,4,Apporteurs défaillants,违约出资人,Defaulting contributors
+4618,4,"Apporteurs, autres apports",出资人其他出资,Other contributions
+4619,4,"Apporteurs, capital à rembourser",出资人应退还资本,Capital to be repaid
+462,3,"Associés, comptes courants",股东往来账户,"Shareholders, current accounts"
+4621,4,Principal,本金,Principal
+4626,4,Intérêts courus,应计利息,Accrued interest
+463,3,"Associés, opérations faites en commun",股东—共同经营业务,"Shareholders, joint operations"
+465,3,"Associés, dividendes à payer",股东—应付股利,Shareholders — dividends payable
+466,3,"Groupe, comptes courants",集团往来账户,"Group, current accounts"
+467,3,"Apporteurs, restant dû sur capital appelé",出资人已催缴资本欠缴额,"Contributors, balance due on called-up capital"
+47,2,Débiteurs et créditeurs divers,各项债务人及债权人,Sundry debtors and creditors
+471,3,Débiteurs et créditeurs divers,各项债务人及债权人,Sundry debtors and creditors
+4710,4,Comptes à classer (suspense d'affectation),待分类款项,Suspense account — items to be classified
+4711,4,Débiteurs divers,各项债务人,Sundry debtors
+4712,4,Créditeurs divers,各项债权人,Sundry creditors
+4713,4,Obligataires,债券持有人,Bondholders
+4714,4,Créances sur cessions de titres de placement,短期投资处置债权,Receivables on disposals of marketable securities
+4715,4,Rémunérations d'administrateurs,董事报酬,Directors remuneration
+4716,4,Compte du factor,保理商账户,Factor account
+4717,4,Débiteurs divers- retenues de garantie,各项债务人—保证保留金,"Sundry debtors, guarantee retentions"
+4718,4,"Apport, compte de restructuration",出资—重组账户,"Contribution, restructuring account"
+4719,4,Bons de souscription d'actions et d'obligations,股票及债券认股权证,Share and bond subscription warrants
+472,3,Versements restant à effectuer sur titres de placement non libérés,未缴款短期投资的待缴款,Payments remaining to be made on unpaid marketable securities
+473,3,Intermédiaires – Opérations faites pour le compte de tiers,中介—代第三方业务,"Intermediaries, transactions on behalf of third parties"
+4731,4,Mandants,委托人,Principals
+4732,4,Mandataires,受托人,Agents
+4733,4,Commettants,委任人,Consignors
+4734,4,Commissionnaires,代销商,Commission agents
+474,3,Répartition périodique des charges et des produits,费用及收入的期间分摊,Periodic allocation of charges and income
+4746,4,Charges,费用,Charges
+4747,4,Produits,收入,Income
+475,3,"Compte transitoire, ajustement spécial lié à la révision SYSCOHADA",过渡账户—SYSCOHADA 修订特别调整,"Transitional account, special adjustment related to the SYSCOHADA revision"
+4751,4,Compte actif,资产类账户,Asset account
+4752,4,Compte passif,负债类账户,Liability account
+476,3,Charges constatées d'avance,预付费用,Prepaid expenses
+477,3,Produits constatés d'avance,预收收入,Deferred income
+478,3,Écarts de conversion - actif,换算差额—资产,"Foreign exchange differences, assets"
+4781,4,Diminution des créances,债权减少,Decrease in receivables
+4782,4,Augmentation des dettes,债务增加,Increase in payables
+4788,4,Différences compensées par couverture de change,套期保值抵冲的差额,Differences offset by forward exchange cover
+479,3,Écarts de conversion - passif,换算差额—负债,"Foreign exchange differences, liabilities"
+4791,4,Augmentation des créances,债权增加,Increase in receivables
+4792,4,Diminution des dettes,债务减少,Decrease in payables
+4798,4,Différences compensées par couverture de change,套期保值抵冲的差额,Differences offset by forward exchange cover
+48,2,Créances et dettes hors activités ordinaires (HAO),非经常性活动债权债务,Receivables and payables — non-ordinary activities
+481,3,Fournisseurs d'investissements,固定资产供应商,Suppliers of non-current assets
+4811,4,Immobilisations incorporelles,无形资产,Intangible assets
+4812,4,Immobilisations corporelles,有形资产,Tangible assets
+4817,4,Retenues de garantie,保证保留金,Guarantee retentions
+4818,4,Factures non parvenues,未到票,Invoices not received
+482,3,"Fournisseurs d'investissements, effets à payer",固定资产供应商—应付票据,"Suppliers of non-current assets, notes payable"
+483,3,Dettes sur acquisition de titres de placement,短期投资取得负债,Liabilities on acquisition of marketable securities
+484,3,Autres dettes hors activités ordinaires (HAO),其他非经常性活动负债,Sundry non-ordinary payables
+485,3,Créances sur cessions d'immobilisations,固定资产处置债权,Receivables on disposals of non-current assets
+4851,4,En compte,应收账款,On account
+4852,4,Effets à recevoir,应收票据,Notes receivable
+4857,4,Retenues de garantie,保证保留金,Guarantee retentions
+4858,4,Factures à établir,待开票,Invoices to be issued
+486,3,Créances sur cessions de titres de placement,短期投资处置债权,Receivables on disposals of marketable securities
+488,3,Autres créances hors activités ordinaires (HAO),其他非经常性活动债权,Other non-ordinary activity receivables
+49,2,Dépréciations et risques provisionnés (tiers),减值及风险准备（往来方）,Impairment and provisions for risks — third parties
+490,3,Dépréciations des comptes fournisseurs,供应商账户减值准备,Impairment — supplier accounts
+491,3,Dépréciations des comptes clients,客户账户减值准备,Impairment of customer accounts
+4911,4,Créances litigieuses,争议债权,Disputed receivables
+4912,4,Créances douteuses,呆滞债权,Doubtful receivables
+492,3,Dépréciations des comptes personnel,职工账户减值准备,Impairment — personnel accounts
+493,3,Dépréciations des comptes organismes sociaux,社会保险机构账户减值准备,Impairment — social organisations
+494,3,Dépréciations des comptes Etat et collectivités publiques,国家及公共团体账户减值准备,Impairment — state and public authorities
+495,3,Dépréciations des comptes organismes internationaux,国际组织账户减值准备,Impairment — international organisations
+496,3,Dépréciations des comptes apporteurs associés et groupe,出资人、股东及集团账户减值准备,"Impairment of contributor, shareholder and group accounts"
+4962,4,"Associés, comptes courants",股东往来账户,"Shareholders, current accounts"
+4963,4,"Associés, opérations faites en commun",股东共同经营业务,"Shareholders, joint operations"
+4966,4,"Groupe, comptes courants",集团往来账户,"Group, current accounts"
+497,3,Dépréciations des comptes débiteurs divers,各项债务人账户减值准备,Impairment — sundry debtors
+498,3,Dépréciations des comptes de créances HAO,非经常性活动债权账户减值准备,Impairment of non-ordinary activity receivable accounts
+4981,4,Créances sur cessions d'immobilisations,固定资产处置债权,Receivables on disposals of non-current assets
+4982,4,Créances sur cessions de titres de placement,短期投资处置债权,Receivables on disposals of marketable securities
+4983,4,Autres créances HAO,其他非经常性活动债权,Other non-ordinary activity receivables
+499,3,Provisions pour risques à court terme,短期风险准备金,Provisions for short-term risks
+4991,4,Sur opérations d'exploitation,经营业务,On operating activities
+4997,4,Sur opérations financières,财务业务,On financial activities
+4998,4,Sur opérations HAO,非经常性活动业务,On non-ordinary activities
+50,2,Titres de placement,短期投资,Marketable securities
+501,3,Titres du trésor et bons de caisse à court terme,短期国库券及现金券,Treasury bills and short-term deposit notes
+5011,4,Titres du Trésor à court terme,短期国库券,Short-term treasury bills
+5012,4,Titres d'organismes financiers,金融机构证券,Financial institution securities
+5013,4,Bons de caisse à court terme,短期现金券,Short-term deposit notes
+5016,4,Frais d'acquisition des titres du trésor et bons de caisse,国库券及现金券取得费用,Acquisition costs of treasury bills and deposit notes
+502,3,Actions,股票,Shares
+5021,4,Actions ou parts propres,自有股票或股份,Own shares or units
+5022,4,Actions cotées,上市股票,Listed shares
+5023,4,Actions non cotées,非上市股票,Unlisted shares
+5024,4,"Actions démembrées (certificats d'investissement, droits de vote)",分割股票（投资凭证、表决权）,"Split shares, investment certificates and voting rights"
+5025,4,Autres actions,其他股票,Other shares
+5026,4,Frais d'acquisition des actions,股票取得费用,Share acquisition costs
+503,3,Obligations,债券,Bonds
+5031,4,Obligations émises par la société et rachetées par elle,本公司发行并回购的债券,Bonds issued and repurchased by the company
+5032,4,Obligations cotées,上市债券,Listed bonds
+5033,4,Obligations non cotées,非上市债券,Unlisted bonds
+5035,4,Autres obligations,其他债券,Other bonds
+5036,4,Frais d'acquisition des obligations,债券取得费用,Bond acquisition costs
+504,3,Bons de souscription,认股权证,Subscription warrants
+5042,4,Bons de souscription d'actions,股票认股权证,Share subscription warrants
+5043,4,Bons de souscription d'obligations,债券认股权证,Bond subscription warrants
+505,3,Titres négociables hors région,区域外可转让证券,Negotiable securities — outside region
+506,3,Intérêts courus,应计利息,Accrued interest on marketable securities
+5061,4,Titres du Trésor et bons de caisse à court terme,短期国库券及现金券应计利息,Accrued interest on treasury bills and deposit notes
+5062,4,Actions,股票应计股利,Accrued dividends on shares
+5063,4,Obligations,债券应计利息,Accrued interest on bonds
+508,3,Autres valeurs assimilées,其他类似证券,Other similar securities
+51,2,Valeurs à encaisser,待收款凭证,Cash to be collected (negotiable instruments)
+511,3,Effets à encaisser,待收票据,Notes to be collected
+512,3,Effets à l'encaissement,托收票据,Notes in collection
+513,3,Chèques à encaisser,待收支票,Cheques to be collected
+514,3,Chèques à l'encaissement,托收支票,Cheques in the process of collection
+515,3,Cartes de crédit à encaisser,待收信用卡款,Credit card receipts to be collected
+518,3,Autres valeurs à l'encaissement,其他托收凭证,Other items in collection
+5181,4,Warrants,仓单,Warehouse warrants
+5182,4,Billets de fonds,票据融资款,Promissory notes
+5185,4,Chèques de voyage,旅行支票,Travellers cheques
+5186,4,Coupons échus,到期息票,Matured coupons
+5187,4,Intérêts échus des obligations,债券到期利息,Matured bond interest
+52,2,Banques,银行存款,Banks
+521,3,Banques locales,本地银行,Banks — local
+5211,4,Banque X,银行 X,Banks — local - X
+5212,4,Banque Y,银行 Y,Banks — local - Y
+522,3,Banques autres États région,区域内其他成员国银行,Banks — other States of the region
+523,3,Banques autres États zone monétaire,货币区其他成员国银行,Banks — other States of the monetary zone
+524,3,Banques hors zone monétaire,货币区外银行,Banks outside the monetary zone
+525,3,"Banques, dépôts à terme",银行定期存款,Banks — term deposits
+526,3,"Banques, intérêts courus",银行应计利息,"Banks, accrued interest"
+5261,4,"Banques, intérêts courus, charges à payer",银行应计利息—应付费用,"Banks, accrued interest payable"
+5267,4,"Banques, intérêts courus, produits à recevoir",银行应计利息—应收收入,"Banks, accrued interest receivable"
+53,2,Établissements financiers et assimilés,金融机构及类似机构,Financial institutions and similar organisations
+531,3,Chèques postaux,邮政支票账户,Postal cheque accounts
+532,3,Trésor,国库账户,Treasury
+533,3,Sociétés de gestion et d'intermédiation (SGI),证券管理与中介公司,Management and brokerage companies
+536,3,"Etablissements financiers, intérêts courus",金融机构应计利息,"Financial institutions, accrued interest"
+5361,4,"Etablissements financiers, intérêts courus, charges à payer",金融机构应计利息—应付费用,"Financial institutions, accrued interest payable"
+5367,4,"Etablissements financiers, intérêts courus produits à recevoir",金融机构应计利息—应收收入,"Financial institutions, accrued interest receivable"
+538,3,autres organismes financiers,其他金融机构,Other financial institutions
+54,2,Instruments de trésorerie,资金工具,Cash management instruments
+541,3,Options de taux d'intérêt,利率期权,Interest rate options
+542,3,Options de taux de change,汇率期权,Foreign exchange rate options
+543,3,Options de taux boursiers,股价指数期权,Equity index options
+544,3,Instruments de marchés à terme,期货市场工具,Forward market instruments
+545,3,Avoirs d'or et autres métaux précieux,黄金及其他贵金属持有量,Holdings of gold and other precious metals
+55,2,Instruments de monnaie électronique,电子货币工具,Electronic money instruments
+551,3,Monnaie électronique - Carte carburant,电子货币—加油卡,Electronic money — fuel card
+552,3,Monnaie électronique - Téléphone portable,电子货币—手机钱包,"Electronic money, mobile phone"
+553,3,Monnaie électronique - Carte péage,电子货币—通行费卡,"Electronic money, toll card"
+554,3,Porte-monnaie électronique,电子钱包,Electronic wallets
+558,3,Autres instruments de monnaie électronique,其他电子货币工具,Other electronic money instruments
+56,2,"Banques, crédits de trésorerie et d'escompte",银行资金及贴现信贷,Bank cash and discount credits
+561,3,Crédits de trésorerie,资金信贷,Cash credits
+564,3,Escompte de crédits de campagne,季节性信贷贴现,Discount of seasonal credits
+565,3,Escompte de crédits ordinaires,普通信贷贴现,Discount of ordinary credits
+566,3,"Banques, crédits de trésorerie, intérêts courus",银行资金信贷应计利息,"Bank cash credits, accrued interest"
+57,2,Caisse,库存现金,Cash on hand
+571,3,Caisse siège social,总部库存现金,Cash on hand at head office
+5711,4,en unités monétaires légales,法定货币,In legal currency
+5712,4,en devises,外币,In foreign currency
+572,3,Caisse succursale A,分支机构 A 库存现金,Cash on hand at branch A
+5721,4,en unités monétaires légales,法定货币,In legal currency
+5722,4,en devises,外币,In foreign currency
+573,3,Caisse succursale B,分支机构 B 库存现金,Cash on hand at branch B
+5731,4,en unités monétaires légales,法定货币,In legal currency
+5732,4,en devises,外币,In foreign currency
+58,2,"Régies d'avances, accréditifs et virements internes",备用金、信用证及内部转账,"Imprest accounts, letters of credit and internal transfers"
+581,3,Régies d'avance,备用金,Imprest accounts
+582,3,Accréditifs,信用证,Letters of credit
+585,3,Virements de fonds,资金划转,Transfers of funds
+588,3,Autres virements internes,其他内部转账,Other internal transfers
+59,2,Dépréciations et risques provisionnés,减值及风险准备,Impairment of cash items
+590,3,Dépréciations des titres de placement,短期投资减值准备,Impairment — marketable securities
+591,3,Dépréciations des titres et valeurs à encaisser,证券及待收款凭证减值准备,Impairment — marketable securities and cash to be collected
+592,3,Dépréciations des comptes banques,银行存款减值准备,Impairment — bank accounts
+593,3,Dépréciations des comptes établissements financiers et assimilés,金融机构及类似机构账户减值准备,Impairment of financial institution accounts
+594,3,Dépréciations des comptes d'instruments de trésorerie,资金工具账户减值准备,Impairment of cash management instruments
+599,3,Risques provisionnés à caractère financier,财务性质风险准备,Provisions for financial risks
+60,2,Achats et variations de stocks,采购及存货变动,Purchases and changes in inventories
+601,3,Achats de marchandises,商品采购,Purchases of merchandise
+6011,4,dans la Région,区域内,Merchandise purchased within the Region
+6012,4,hors Région,区域外,Merchandise purchased outside the Region
+6013,4,aux entités du groupe dans la Région,集团内实体（区域内）,Merchandise purchased from group entities within the Region
+6014,4,aux entités du groupe hors Région,集团内实体（区域外）,Merchandise purchased from group entities outside the Region
+6015,4,Frais sur achats,采购附加费用,"Purchases of merchandise, incidental expenses"
+6019,4,"Rabais, Remises et Ristournes obtenus (non ventilés)",已取得折让、折扣、回佣（未分摊）,"Rebates, discounts and allowances obtained, not allocated"
+602,3,Achats de matières premières et fournitures liées,原材料及关联供应品采购,Purchases of raw materials and related supplies
+6021,4,dans la Région,区域内,Raw materials purchased within the Region
+6022,4,hors Région,区域外,Raw materials purchased outside the Region
+6023,4,aux entités du groupe dans la Région,集团内实体（区域内）,Raw materials purchased from group entities within the Region
+6024,4,aux entités du groupe hors Région,集团内实体（区域外）,Raw materials purchased from group entities outside the Region
+6025,4,Frais sur Achats,采购附加费用,"Purchases of raw materials, incidental expenses"
+6029,4,"Rabais, Remises et Ristournes obtenus (non ventilés)",已取得折让、折扣、回佣（未分摊）,"Rebates, discounts and allowances obtained, not allocated"
+603,3,Variations des stocks de biens achetés,购入商品存货变动,Changes in inventories of purchased goods
+6031,4,Variations des stocks de marchandises,商品存货变动,Changes in merchandise inventories
+6032,4,Variations des stocks de matières premières et fournitures liées,原材料及关联供应品存货变动,Changes in raw material and supply inventories
+6033,4,Variations des stocks d'autres approvisionnements,其他物料存货变动,Changes in other supply inventories
+604,3,Achats stockés de matières et fournitures consommables,消耗性材料及用品采购,Purchases of consumable materials and supplies
+6041,4,Matières consommables,消耗性材料,Consumable materials
+6042,4,Matières combustibles,燃料材料,Fuel materials
+6043,4,Produits d'entretien,保养用品,Maintenance products
+6044,4,Fournitures d'atelier et d'usine,车间及工厂用品,Workshop and factory supplies
+6045,4,Frais sur Achats,采购附加费用,"Purchases of consumables, incidental expenses"
+6046,4,Fournitures de magasin,仓库用品,Store supplies
+6047,4,Fournitures de bureau,办公用品,Office supplies
+6049,4,"Rabais, Remises et Ristournes obtenus (non ventilés)",已取得折让、折扣、回佣（未分摊）,"Rebates, discounts and allowances obtained, not allocated"
+605,3,Autres achats,其他采购,Other purchases
+6051,4,Fournitures non stockables - Eau,非入库用品—水,"Non-storable supplies, water"
+6052,4,Fournitures non stockables - Électricité,非入库用品—电,"Non-storable supplies, electricity"
+6053,4,Fournitures non stockables - Autres énergies,非入库用品—其他能源,"Non-storable supplies, other energy"
+6054,4,Fournitures d'entretien non stockables,非入库保养用品,Non-storable maintenance supplies
+6055,4,Fournitures de bureau non stockables,非入库办公用品,Non-storable office supplies
+6056,4,Achats de petit matériel et outillage,小型器具及工具采购,Purchases of small equipment and tools
+6057,4,Achats d'études et prestations de services,研究及劳务采购,Purchases of studies and services
+6058,4,"Achats de travaux, matériels et équipements",工程、材料及设备采购,"Purchases of works, materials and equipment"
+6059,4,"Rabais, Remises et Ristournes obtenus (non ventilés)",已取得折让、折扣、回佣（未分摊）,"Rebates, discounts and allowances obtained, not allocated"
+608,3,Achats d'emballages,包装物采购,Purchases of packaging
+6081,4,Emballages perdus,一次性包装物,Non-returnable packaging
+6082,4,Emballages récupérables non identifiables,不可识别的可回收包装物,Returnable non-identifiable packaging
+6083,4,Emballages à usage mixte,混合用途包装物,Mixed-use packaging
+6085,4,Frais sur achats,采购附加费用,"Purchases of packaging, incidental expenses"
+6089,4,"Rabais, Remises et Ristournes obtenus (non ventilés)",已取得折让、折扣、回佣（未分摊）,"Rebates, discounts and allowances obtained, not allocated"
+61,2,Transports,运输,Transport
+612,3,Transports sur ventes,销售运输,Transport on sales
+613,3,Transports pour le compte de tiers,代第三方运输,Transport on behalf of third parties
+614,3,Transports du personnel,职工运输,Transport of personnel
+616,3,Transports de plis,邮件运输,Transport of mail
+618,3,Autres frais de transport,其他运输费用,Other transport costs
+6181,4,Voyages et déplacements,差旅,Travel and business trips
+6182,4,Transports entre établissements ou chantiers,机构或工地间运输,Transport between establishments or sites
+6183,4,Transports entre établissements ou chantiers,机构或工地间运输（二）,Transport between establishments or sites
+62,2,Services extérieurs,外部服务,External services
+621,3,Sous-traitance générale,一般分包,General subcontracting
+622,3,Locations et charges locatives,租金及租赁费用,Rentals and lease charges
+6221,4,Locations de terrains,土地租赁,Land rentals
+6222,4,Locations de bâtiments,房屋租赁,Building rentals
+6223,4,Locations de matériels et outillages,设备及工具租赁,Equipment and tool rentals
+6224,4,Malis sur emballages,包装物损失,Losses on packaging
+6225,4,Locations d'emballages,包装物租赁,Packaging rentals
+6226,4,Fermages et loyers du foncier,土地租佃费及地租,Farm leases and land rents
+6228,4,Locations et charges locatives diverses,各项租赁费用,Sundry rentals and lease charges
+623,3,Redevances de location acquisition,租赁购置费用,Lease-purchase royalties
+6232,4,Crédit-bail immobilier,不动产融资租赁,Property finance leases
+6233,4,Crédit-bail mobilier,动产融资租赁,Movable finance leases
+6234,4,location vente,租售,Hire purchase
+6235,4,Autres contrats de location acquisition,其他租赁购置合同,Other lease-purchase contracts
+624,3,"Entretien, réparations et maintenance",维护、修理及保养,"Maintenance, repairs and servicing"
+6241,4,Entretien et réparations des biens immobiliers,不动产维护及修理,Maintenance and repairs of buildings
+6242,4,Entretien et réparations des biens mobiliers,动产维护及修理,Maintenance and repairs of movable assets
+6243,4,Maintenance,保养,Servicing
+6248,4,Autres entretiens et réparations,其他维护及修理,Other maintenance and repairs
+625,3,Primes d'assurance,保险费,Insurance premiums
+6251,4,Assurances multirisques,综合保险,Multi-risk insurance
+6252,4,Assurances matériel de transport,运输工具保险,Transport equipment insurance
+6253,4,Assurances risques d'exploitation,经营风险保险,Operating risk insurance
+6254,4,Assurances responsabilité du producteur,生产者责任保险,Product liability insurance
+6255,4,Assurances insolvabilité clients,客户无力偿付保险,Customer insolvency insurance
+6257,4,Assurances transports sur ventes,销售运输保险,Sales transport insurance
+6258,4,Autres primes d'assurances,其他保险费,Other insurance premiums
+626,3,"Études, recherches et documentation",研究、开发及资料,"Studies, research and documentation"
+6261,4,Études et recherches,研究开发,Studies and research
+6265,4,Documentation générale,一般资料,General documentation
+6266,4,Documentation technique,技术资料,Technical documentation
+627,3,"Publicité, publications, relations publiques",广告、出版及公共关系,"Advertising, publications and public relations"
+6271,4,"Annonces, insertions",广告刊登,Announcements and press insertions
+6272,4,"Catalogues, imprimés publicitaires",目录、广告印刷品,Catalogues and advertising printed matter
+6273,4,Échantillons,样品,Samples
+6274,4,Foires et expositions,交易会及展览,Trade fairs and exhibitions
+6275,4,Publications,出版物,Publications
+6276,4,Cadeaux à la clientèle,客户赠品,Gifts to customers
+6277,4,"Frais de colloques, séminaires, conférences",研讨会、讲座、会议费用,"Symposium, seminar and conference costs"
+6278,4,Autres charges de publicité et relations publiques,其他广告及公共关系费用,Other advertising and public relations costs
+628,3,Frais de télécommunications,电信费用,Telecommunication costs
+6281,4,Frais de téléphone,电话费,Telephone costs
+6282,4,Frais de télex,电传费,Telex costs
+6283,4,Frais de télécopie,传真费,Fax costs
+6288,4,Autres frais de télécommunications,其他电信费用,Other telecommunication costs
+63,2,Autres services extérieurs,其他外部服务,Other external services
+631,3,Frais bancaires,银行费用,Bank charges
+6311,4,"Frais sur titres (vente, garde)",证券费用（出售、保管）,"Securities charges, sale and custody"
+6312,4,Frais sur effets,票据费用,Charges on notes
+6313,4,Location de coffres,保险箱租赁,Safe deposit box rental
+6314,4,Commissions d' affacturage,保理佣金,Factoring commissions
+6315,4,Commissions sur cartes de crédit,信用卡佣金,Credit card commissions
+6316,4,Frais d'émission d'emprunts,借款发行费用,Loan issuance costs
+6317,4,Frais sur instruments monnaie électronique,电子货币工具费用,Electronic money instrument charges
+6318,4,Autres frais bancaires,其他银行费用,Other bank charges
+632,3,Rémunérations d'intermédiaires et de conseils,中介及咨询报酬,Fees of intermediaries and advisers
+6322,4,Commissions et courtages sur ventes,销售佣金及经纪费,Sales commissions and brokerage
+6324,4,Honoraires des professions règlementées,受管制职业报酬,Fees of regulated professions
+6325,4,Frais d'actes et de contentieux,法律文书及诉讼费用,Legal and litigation costs
+6327,4,Rémunérations des autres prestataires de services,其他服务提供者报酬,Fees of other service providers
+6328,4,Divers frais,各项费用,Sundry fees
+633,3,Frais de formation du personnel,职工培训费用,Staff training costs
+634,3,"Redevances pour brevets, licences, marques, logiciels, sites, concessions et droits et valeurs similaires",专利、许可、商标、软件、网站、特许权等使用费,"Royalties for patents, licences, trademarks, software, websites and similar rights"
+6342,4,"Redevances pour brevets, licences",专利、许可使用费,Royalties for patents and licences
+6343,4,Redevances pour logiciels,软件使用费,Royalties for software
+6344,4,Redevances pour marques,商标使用费,Royalties for trademarks
+6345,4,Redevances pour sites,网站使用费,Royalties for websites
+6346,4,"Redevances pour concessions, droits et valeurs similaires",特许权、权利及类似资产使用费,Royalties for concessions and similar rights and assets
+635,3,Cotisations,会费,Subscriptions and contributions
+6351,4,Cotisations,会费,Subscriptions and contributions
+6358,4,Concours divers,各项资助,Sundry sponsorships
+637,3,Rémunérations de personnel extérieur à l'entité,外部人员报酬,Remuneration of staff external to the entity
+6371,4,Personnel intérimaire,临时人员,Temporary staff
+6372,4,Personnel détaché ou prêté à l'entité,借调或派遣至本单位的人员,Seconded or loaned staff
+638,3,Autres charges externes,其他外部费用,Other external charges
+6381,4,Frais de recrutement du personnel,招聘费用,Staff recruitment costs
+6382,4,Frais de déménagement,搬迁费用,Removal costs
+6383,4,Réceptions,招待费,Entertainment
+6384,4,Missions,差旅任务费,Assignment expenses
+64,2,Impôts et taxes,税费,Taxes and duties
+641,3,Impôts et taxes directs,直接税,Direct taxes and duties
+6411,4,Impôts fonciers et taxes annexes,土地税及附加税,Property taxes and related taxes
+6412,4,"Patentes, licences et taxes annexes",营业税、执照税及附加税,Business licences and related taxes
+6413,4,Taxes sur appointements et salaires,薪金税,Taxes on salaries and wages
+6414,4,Taxes d'apprentissage,学徒税,Apprenticeship tax
+6415,4,Formation professionnelle continue,职业继续教育税,Continuing vocational training levy
+6418,4,Autres impôts et taxes directs,其他直接税,Other direct taxes
+645,3,Impôts et taxes indirects,间接税,Indirect taxes and duties
+646,3,Droits d'enregistrement,登记税,Registration duties
+6461,4,Droits de mutation,过户税,Transfer duties
+6462,4,Droits de timbre,印花税,Stamp duties
+6463,4,Taxes sur les véhicules de société,公司车辆税,Company vehicle taxes
+6464,4,Vignettes,车辆年检标,Vehicle tax discs
+6468,4,Autres droits,其他税费,Other duties
+647,3,Pénalités et amendes fiscales,税收罚款及罚金,Tax penalties and fines
+6471,4,"Pénalités d'assiette, impôts directs",直接税计税罚款,Assessment penalties on direct taxes
+6472,4,"Pénalités d'assiette, impôts indirects",间接税计税罚款,Assessment penalties on indirect taxes
+6473,4,"Pénalités de recouvrement, impôts directs",直接税征收罚款,Collection penalties on direct taxes
+6474,4,"Pénalités de recouvrement, impôts indirects",间接税征收罚款,Collection penalties on indirect taxes
+6478,4,Autres amendes pénales et fiscales,其他刑事及税收罚金,Other criminal and tax fines
+648,3,Autres impôts et taxes,其他税费,Other taxes and duties
+65,2,Autres charges,其他费用,Other operating charges
+651,3,Pertes sur créances clients et autres débiteurs,客户及其他债务人债权损失,Losses on customer and other receivables
+6511,4,Clients,客户,Customers
+6515,4,Autres débiteurs,其他债务人,Other debtors
+652,3,Quote-part de résultat sur opérations faites en commun,共同经营损益份额,Share of results on joint operations
+6521,4,Quote-part transférée de bénéfices (comptabilité du gérant),转移的利润份额（管理人账）,"Share of profits transferred, managing partner books"
+6525,4,Pertes imputées par transfert (comptabilité des associés non gérants),通过转移分摊的亏损（非管理合伙人账）,"Losses allocated by transfer, non-managing partner books"
+654,3,Valeurs comptables des cessions courantes d'immobilisations,经常性固定资产处置的账面价值,Carrying amount of ordinary disposals of non-current assets
+658,3,Charges diverses,各项其他费用,Sundry charges
+6581,4,Indemnités de fonction et autres rémunérations d'administrateurs,董事职务津贴及其他报酬,Directors fees and other remuneration
+6582,4,Dons,捐赠,Donations
+6583,4,Mécénat,资助,Patronage
+6588,4,Autres charges diverses,其他各项费用,Other sundry charges
+659,3,Charges pour dépréciations et provisions pour risques à court terme d'exploitation,经营减值及短期风险准备金费用,Operating impairment losses and short-term risk provisions
+6591,4,sur risques à court terme,短期风险,On short-term operating risks
+6593,4,sur stocks,存货,On inventories
+6594,4,sur créances,债权,On receivables
+6598,4,Autres charges pour dépréciations et provisions pour risques à court terme,其他减值及短期风险准备金费用,On other operating items
+66,2,Charges de personnel,人工费用,Personnel costs
+661,3,Rémunérations directes versées au personnel national,支付本国职工的直接薪酬,Direct remuneration paid to national staff
+6611,4,"Appointements, salaires et commissions",薪金、工资及佣金,"Salaries, wages and commissions"
+6612,4,Primes et gratifications,奖金及奖励,Bonuses and gratuities
+6613,4,Congés payés,带薪休假,Paid leave
+6614,4,"Indemnités de préavis, de licenciement et de recherche d'embauche",预告期、解雇及求职补偿,"Notice, redundancy and job search compensation"
+6615,4,Indemnités de maladie versées aux travailleurs,支付职工的病假补贴,Sick pay to employees
+6616,4,Supplément familial,家庭补助,Family supplement
+6617,4,Avantages en nature,实物福利,Benefits in kind
+6618,4,Autres rémunérations directes,其他直接薪酬,Other direct remuneration
+662,3,Rémunérations directes versées au personnel non national,支付外籍职工的直接薪酬,Direct remuneration paid to non-national staff
+6621,4,"Appointements, salaires et commissions",薪金、工资及佣金,"Salaries, wages and commissions"
+6622,4,Primes et gratifications,奖金及奖励,Bonuses and gratuities
+6623,4,Congés payés,带薪休假,Paid leave
+6624,4,"Indemnités de préavis, de licenciement et de recherche d'embauche",预告期、解雇及求职补偿,"Notice, redundancy and job search compensation"
+6625,4,Indemnités de maladie versées aux travailleurs,支付职工的病假补贴,Sick pay to employees
+6626,4,Supplément familial,家庭补助,Family supplement
+6627,4,Avantages en nature,实物福利,Benefits in kind
+6628,4,Autres rémunérations directes,其他直接薪酬,Other direct remuneration
+663,3,Indemnités forfaitaires versées au personnel,支付职工的定额补贴,Flat-rate allowances paid to staff
+6631,4,Indemnités de logement,住房补贴,Housing allowances
+6632,4,Indemnités de représentation,交际补贴,Entertainment allowances
+6633,4,Indemnités d'expatriation,外派补贴,Expatriation allowances
+6638,4,Autres indemnités et avantages divers,其他补贴及福利,Other allowances and benefits
+664,3,Charges sociales,社会保险费,Social charges
+6641,4,Charges sociales sur rémunération du personnel national,本国职工薪酬的社保费,Social charges on national staff remuneration
+6642,4,Charges sociales sur rémunération du personnel non national,外籍职工薪酬的社保费,Social charges on non-national staff remuneration
+666,3,Rémunération et charges sociales de l'exploitant individuel,个体工商户业主报酬及社保费,Remuneration and social charges of the sole proprietor
+6661,4,Rémunération du travail de l'exploitant,业主劳动报酬,Remuneration for the work of the proprietor
+6662,4,Charges sociales,社会保险费,Social charges
+667,3,Rémunération transférée de personnel extérieur,外部人员薪酬转付,Remuneration transferred for external staff
+6671,4,Personnel intérimaire,临时人员,Temporary staff
+6672,4,Personnel détaché ou prêté à l'entité,借调或派遣至本单位的人员,Seconded or loaned staff
+668,3,Autres charges sociales,其他社保费用,Other social charges
+6681,4,"Versements aux syndicats et comités d'entreprise, d'établissement",向工会及企业、机构委员会缴款,Payments to trade unions and works councils
+6682,4,Versements aux comités d'hygiène et de sécurité,向卫生与安全委员会缴款,Payments to health and safety committees
+6683,4,Versements aux autres œuvres sociales,向其他福利事业缴款,Payments to other welfare schemes
+6684,4,Médecine du travail et pharmacie,职业医疗及药房,Occupational medicine and pharmacy
+6685,4,Assurances et organismes de santé,健康保险及机构,Health insurance and health organisations
+6686,4,Assurances retraite et fonds de pension,退休保险及养老基金,Retirement insurance and pension funds
+67,2,Frais financiers et charges assimilées,财务费用及类似费用,Finance costs and similar charges
+671,3,Intérêts des emprunts,借款利息,Interest on borrowings
+6711,4,Emprunts obligataires,债券借款,On bond borrowings
+6712,4,Emprunts auprès des établissements de crédit,金融机构借款,On borrowings from credit institutions
+6713,4,Dettes liées à des participations,参股相关负债,On liabilities related to participations
+6714,4,Primes de remboursement des obligations,债券偿还溢价,On bond redemption premiums
+672,3,Intérêts dans loyers de location acquisition,租赁购置租金中的利息,Interest in lease-purchase payments
+6721,4,Intérêts dans loyers de location acquisition / crédit-bail immobilier,不动产融资租赁,Interest in property finance lease payments
+6722,4,Intérêts dans loyers de location acquisition / crédit-bail mobilier,动产融资租赁,Interest in movable finance lease payments
+6723,4,Intérêts dans loyers de location acquisition / location vente,租售,Interest in hire purchase payments
+6724,4,Intérêts dans loyers des autres contrats,其他合同租金中的利息,Interest in other lease contract payments
+673,3,Escomptes accordés,给予的现金折扣,Discounts granted
+674,3,Autres intérêts,其他利息,Other interest
+6741,4,Avances reçues et dépôts créditeurs,收到的预拨款及贷方存款,On advances received and credit deposits
+6742,4,Comptes courants bloqués,冻结往来账户,On blocked current accounts
+6743,4,Intérêts sur obligations cautionnées,担保债券利息,On guaranteed bonds
+6744,4,Intérêts sur dettes commerciales,商业负债利息,On trade payables
+6745,4,Intérêts bancaires et sur opérations de trésorerie et d'escompte,银行及资金、贴现业务利息,Bank interest and interest on cash and discount operations
+6748,4,Intérêts sur dettes diverses,各项负债利息,On sundry payables
+675,3,Escomptes des effets de commerce,商业票据贴现,Discounts on negotiable instruments
+676,3,Pertes de change,汇兑损失,Foreign exchange losses
+677,3,Pertes sur titres de placement,短期投资损失,Losses on marketable securities
+6771,4,Pertes sur cessions de titres de placement,短期投资处置损失,Losses on disposals of marketable securities
+6772,4,Malis provenant d'attribution gratuite d'actions au personnel salarié et aux dirigeants,无偿授予职工及管理层股份的损失,Losses on free share allocations to employees and managers
+678,3,Pertes sur risques financiers,财务风险损失,Losses on financial risks
+6781,4,Sur rentes viagères,终身年金,On life annuities
+6782,4,Sur opérations financières,财务交易,On financial transactions
+6784,4,Sur instruments de trésorerie,资金工具,On cash management instruments
+679,3,Charges pour dépréciations et provisions pour risques à court terme financières,财务减值及短期风险准备金费用,Financial impairment losses and short-term risk provisions
+6791,4,Sur risques financiers,财务风险,On financial risks
+6795,4,Sur titres de placement,短期投资,On marketable securities
+6798,4,Autres charges pour dépréciations et provisions pour risques à court terme financières,其他财务减值及短期风险准备金费用,Other financial impairment losses and short-term risk provisions
+68,2,Dotations aux amortissements,折旧计提,Depreciation and amortisation charges
+681,3,Dotations aux amortissements d'exploitation,经营折旧计提,Operating depreciation and amortisation charges
+6812,4,Dotations aux amortissements des immobilisations incorporelles,无形资产折旧计提,Depreciation of intangible assets
+6813,4,Dotations aux amortissements des immobilisations corporelles,有形资产折旧计提,Depreciation of tangible assets
+687,3,Dotations aux amortissements à caractère financier,财务性质折旧计提,Depreciation and amortisation — financial
+69,2,Dotations aux provisions,准备金计提,Charges to provisions
+691,3,Dotations aux provisions d'exploitation,经营准备金计提,Operating provisions
+6911,4,Pour risques et charges,风险及费用,For risks and charges
+6913,4,Pour dépréciation des immobilisations incorporelles,无形资产减值,For impairment of intangible assets
+6914,4,Pour dépréciation des immobilisations corporelles,有形资产减值,For impairment of tangible assets
+697,3,Dotations aux provisions financières,财务准备金计提,Financial provisions
+6971,4,Pour risques et charges,风险及费用,For risks and charges
+6972,4,Pour dépréciation des immobilisations financières,金融资产减值,For impairment of financial assets
+70,2,Ventes,销售,Sales
+701,3,Ventes de marchandises,商品销售,Sales of merchandise
+7011,4,Dans la Région,区域内,Merchandise sold within the Region
+7012,4,Hors Région,区域外,Merchandise sold outside the Region
+7013,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Merchandise sold to group entities within the Region
+7014,4,Aux entités du groupe hors Région,集团内实体（区域外）,Merchandise sold to group entities outside the Region
+7015,4,Sur internet,网络销售,Over the internet
+702,3,Ventes de produits finis,产成品销售,Sales of finished goods
+7021,4,Dans la Région,区域内,Finished goods sold within the Region
+7022,4,Hors Région,区域外,Finished goods sold outside the Region
+7023,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Finished goods sold to group entities within the Region
+7024,4,Aux entités du groupe hors Région,集团内实体（区域外）,Finished goods sold to group entities outside the Region
+7025,4,Sur internet,网络销售,Over the internet
+703,3,Ventes de produits intermédiaires,半成品销售,Sales of semi-finished goods
+7031,4,Dans la Région,区域内,Semi-finished goods sold within the Region
+7032,4,Hors Région,区域外,Semi-finished goods sold outside the Region
+7033,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Semi-finished goods sold to group entities within the Region
+7034,4,Aux entités du groupe hors Région,集团内实体（区域外）,Semi-finished goods sold to group entities outside the Region
+7035,4,Sur internet,网络销售,Over the internet
+704,3,Ventes de produits résiduels,残料销售,Sales of residual products
+7041,4,Dans la Région,区域内,Residual products sold within the Region
+7042,4,Hors Région,区域外,Residual products sold outside the Region
+7043,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Residual products sold to group entities within the Region
+7044,4,Aux entités du groupe hors Région,集团内实体（区域外）,Residual products sold to group entities outside the Region
+7045,4,Sur internet,网络销售,Over the internet
+705,3,Travaux facturés,已开票工程,Work billed
+7051,4,Dans la Région,区域内,Work billed within the Region
+7052,4,Hors Région,区域外,Work billed outside the Region
+7053,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Work billed to group entities within the Region
+7054,4,Aux entités du groupe hors Région,集团内实体（区域外）,Work billed to group entities outside the Region
+7055,4,Sur internet,网络销售,Over the internet
+706,3,Services vendus,已提供劳务,Services sold
+7061,4,Dans la Région,区域内,Services sold within the Region
+7062,4,Hors Région,区域外,Services sold outside the Region
+7063,4,Aux entités du groupe dans la Région,集团内实体（区域内）,Services sold to group entities within the Region
+7064,4,Aux entités du groupe hors Région,集团内实体（区域外）,Services sold to group entities outside the Region
+7065,4,Sur internet,网络销售,Over the internet
+707,3,Produits accessoires,附属收入,Ancillary income
+7071,4,"Ports, emballages perdus et autres frais facturés",运费、一次性包装及其他已开票费用,"Postage, non-returnable packaging and other invoiced costs"
+7072,4,Commissions et courtages,佣金及经纪费,Commissions and brokerage
+7073,4,Locations,出租收入,Rentals
+7074,4,Bonis sur reprises et cessions d'emballages,包装物回收及处置收益,Gains on returns and disposals of packaging
+7075,4,Mise à disposition de personnel,人员借用收入,Secondment of staff
+7076,4,"Redevances pour brevets, logiciels, marques et droits similaires",专利、软件、商标及类似权利使用费,"Royalties for patents, software, trademarks and similar rights"
+7077,4,Services exploités dans l'intérêt du personnel,为职工利益经营的服务,Services operated for the benefit of staff
+7078,4,Autres produits accessoires,其他附属收入,Other ancillary income
+71,2,Subventions d'exploitation,经营补助,Operating grants
+711,3,Sur produits à l'exportation,出口产品补助,Grants on exports
+712,3,Sur produits à l'importation,进口产品补助,Grants on imports
+713,3,Sur produits de péréquation,平准产品补助,Equalisation grants
+718,3,Autres subventions d'exploitation,其他经营补助,Other operating grants
+7181,4,Versées par l'État et les collectivités publiques,国家及公共团体拨付,Paid by the State and public authorities
+7182,4,Versées par les organismes internationaux,国际组织拨付,Paid by international organisations
+7183,4,Versées par des tiers,第三方拨付,Paid by third parties
+72,2,Production immobilisée,自建资产,Own work capitalised
+721,3,Immobilisations incorporelles,无形资产,Own work capitalised — intangible assets
+722,3,Immobilisations corporelles,有形资产,Own work capitalised — tangible assets
+724,3,Production auto-consommée,自产自用,Own work capitalised — self-consumed production
+726,3,Immobilisations financières,金融资产,Own work capitalised — financial assets
+73,2,Variations des stocks de biens et de services produits,已生产商品及服务存货变动,Changes in inventories of produced goods and services
+734,3,Variations des stocks de produits en cours,在产品存货变动,Changes in work in progress inventories
+7341,4,Produits en cours,在产品,Goods in progress
+7342,4,Travaux en cours,在建工程,Construction work in progress
+735,3,Variations des en-cours de services,在提供服务变动,Changes in services in progress
+7351,4,Études en cours,在研项目,Studies in progress
+7352,4,Prestations de services en cours,在提供劳务,Services in progress
+736,3,Variations des stocks de produits finis,产成品存货变动,Changes in inventories of finished goods
+737,3,Variations des stocks de produits intermédiaires et résiduels,半成品及残料存货变动,Changes in semi-finished and residual product inventories
+7371,4,Produits intermédiaires,半成品,Semi-finished products
+7372,4,Produits résiduels,残料,Residual products
+75,2,Autres produits,其他收入,Other operating income
+752,3,Quote-part de résultat sur opérations faites en commun,共同经营损益份额,Share of results on joint operations
+7521,4,Quote-part transférée de pertes (comptabilité du gérant),转移的亏损份额（管理人账）,"Share of losses transferred, managing partner books"
+7525,4,Bénéfices attribués par transfert (comptabilité des associés non gérants),通过转移分配的利润（非管理合伙人账）,"Profits allocated by transfer, non-managing partner books"
+754,3,Produits des cessions courantes d'immobilisations,经常性固定资产处置收入,Income from ordinary disposals of non-current assets
+758,3,Produits divers,各项其他收入,Sundry income
+7581,4,Indemnités de fonction et autres rémunérations,职务津贴及其他报酬,Directors fees and other remuneration
+7582,4,Indemnités d'assurances reçues,收到的保险赔款,Insurance claims received
+7588,4,Autres produits divers,其他各项收入,Other sundry income
+759,3,Reprises de charges provisionnées d'exploitation,经营预提费用转回,Reversals of operating accrued charges
+7591,4,Sur risques à court terme,短期风险,Reversals on short-term risks
+7593,4,Sur stocks,存货,Reversals on inventories
+7594,4,Sur créances,债权,Reversals on receivables
+7598,4,Sur autres charges provisionnées,其他预提费用,Reversals on other accrued charges
+77,2,Revenus financiers et produits assimilés,财务收入及类似收入,Finance income and similar income
+771,3,Intérêts de prêts et créances diverses,贷款及各项债权利息,Interest on loans and sundry receivables
+7712,4,Intérêts de prêts,贷款利息,Interest on loans
+7713,4,Intérêts sur créances diverses,各项债权利息,Interest on sundry receivables
+772,3,Revenus de participations et autres créances immobilisées,参股及其他长期债权收益,Income from participations and other long-term receivables
+7721,4,Revenus des titres de participation,参股证券收益,Income from participating interests
+7722,4,Revenus des autres titres immobilisés,其他长期持有证券收益,Income from other long-term investment securities
+773,3,Escomptes obtenus,取得的现金折扣,Discounts obtained
+774,3,Revenus de placement,投资收益,Investment income
+7745,4,Revenus des obligations,债券收益,Income from bonds
+7746,4,Revenus des titres de placement,短期投资收益,Income from marketable securities
+775,3,Intérêts dans loyers de location acquisition,租赁购置租金中的利息,Interest in lease-purchase payments
+776,3,Gains de change,汇兑收益,Foreign exchange gains
+777,3,Gains sur cessions de titres de placement,短期投资处置收益,Gains on disposals of marketable securities
+778,3,Gains sur risques financiers,财务风险收益,Gains on financial risks
+7781,4,Sur rentes viagères,终身年金,On life annuities
+7782,4,Sur opérations financières,财务交易,On financial transactions
+7784,4,Sur instruments de trésorerie,资金工具,On cash management instruments
+779,3,Reprises de charges provisionnées financières,财务预提费用转回,Reversals of financial accrued charges
+7791,4,Sur risques financiers,财务风险,On financial risks
+7795,4,Sur titres de placement,短期投资,On marketable securities
+7798,4,Autres charges provisionnées financières,其他财务预提费用,On other accrued financial charges
+78,2,Transferts de charges,费用转出,Transfers of expenses
+781,3,Transferts de charges d'exploitation,经营费用转出,Transfers of operating charges
+787,3,Transferts de charges financières,财务费用转出,Transfers of financial charges
+79,2,Reprises de provisions,准备金转回,Reversals of provisions
+791,3,Reprises de provisions d'exploitation,经营准备金转回,Reversals of operating provisions
+7911,4,Pour risques et charges,风险及费用,For risks and charges
+7913,4,Pour dépréciation des immobilisations incorporelles,无形资产减值,For impairment of intangible assets
+7914,4,Pour dépréciation des immobilisations corporelles,有形资产减值,For impairment of tangible assets
+797,3,Reprises de provisions financières,财务准备金转回,Reversals of financial provisions
+7971,4,Pour risques et charges,风险及费用,For risks and charges
+7972,4,Pour dépréciation des immobilisations financières,金融资产减值,For impairment of financial assets
+798,3,Reprises d'amortissements,折旧转回,Reversals of accumulated depreciation
+799,3,Reprises de subventions d'investissement,投资补助转回,Reversals of investment grants
+81,2,Valeurs comptables des cessions d'immobilisations,处置固定资产的账面价值,Non-operating charges (HAO)
+811,3,Immobilisations incorporelles,无形资产,Non-operating charges — disposals of intangible assets
+812,3,Immobilisations corporelles,有形资产,Non-operating charges — disposals of tangible assets
+816,3,Immobilisations financières,金融资产,Non-operating charges — disposals of financial assets
+82,2,Produits des cessions d'immobilisations,固定资产处置收入,Non-operating income (HAO)
+821,3,Immobilisations incorporelles,无形资产,Non-operating income — disposals of intangible assets
+822,3,Immobilisations corporelles,有形资产,Non-operating income — disposals of tangible assets
+826,3,Immobilisations financières,金融资产,Non-operating income — disposals of financial assets
+83,2,Charges hors activités ordinaires,非经常性活动费用,Non-ordinary activity expenses
+831,3,Charges H.A.O. constatées,已确认非经常性活动费用,Non-operating charges recorded
+833,3,Charges liées aux opérations de restructuration,重组相关费用,Non-operating charges — restructuring operations
+834,3,Pertes sur créances H.A.O.,非经常性活动债权损失,Non-operating losses on receivables
+835,3,Dons et libéralités accordés,对外捐赠及赠与,Donations and gifts granted
+836,3,Abandons de créances consentis,让与的债权豁免,Debts waived
+837,3,Charges liées aux opérations de liquidation,清算相关费用,Expenses related to liquidation operations
+839,3,Charges pour dépréciations et provisions pour risques à court terme H.A.O.,非经常性活动减值及短期风险准备金费用,Charges for impairment and short-term risk provisions
+84,2,Produits hors activités ordinaires,非经常性活动收入,Non-ordinary activity income
+841,3,Produits H.A.O. constatés,已确认非经常性活动收入,Non-operating income recorded
+843,3,Produits liés aux opérations de restructuration,重组相关收入,Non-operating income — restructuring operations
+845,3,Dons et libéralités obtenus,取得的捐赠及赠与,Donations and gifts received
+846,3,Abandons de créances obtenus,取得的债权豁免,Debt waivers obtained
+847,3,Produits liés aux opérations de liquidation,清算相关收入,Income related to liquidation operations
+848,3,Transferts de charges H.A.O.,非经常性活动费用转出,Transfers of non-operating charges
+849,3,Reprises de charges pour dépréciations et provisions pour risques à court terme H.A.O.,非经常性活动减值及短期风险准备金转回,Reversals of impairment charges and short-term risk provisions
+85,2,Dotations hors activités ordinaires,非经常性活动计提,Non-ordinary activity allocations
+851,3,Dotations aux provisions réglementées,管制准备金计提,Additions to regulated provisions
+852,3,Dotations aux amortissements HAO,非经常性活动折旧计提,Non-operating depreciation
+853,3,Dotations aux dépréciations H.A.O.,非经常性活动减值计提,Non-operating impairment
+854,3,Dotations aux provisions pour risques et charges HAO,非经常性活动风险及费用准备金计提,Non-operating provisions for risks and charges
+858,3,Autres dotations HAO,其他非经常性活动计提,Other non-operating additions
+86,2,Reprises hors activités ordinaires,非经常性活动转回,Reversals of non-operating provisions
+861,3,Reprises de provisions réglementées,管制准备金转回,Reversals of regulated provisions
+862,3,Reprises d'amortissements,折旧转回,Reversals of non-operating depreciation
+863,3,Reprises de dépréciations H.A.O.,非经常性活动减值转回,Reversals of non-operating impairment
+864,3,Reprises de provisions pour risques et charges H.A.O.,非经常性活动风险及费用准备金转回,Reversals of non-operating provisions for risks and charges
+868,3,Autres reprises H.A.O.,其他非经常性活动转回,Other non-operating reversals
+87,2,participation des travailleurs,职工利润分享,Employee profit sharing
+871,3,Participation légale aux bénéfices,法定利润分享,Statutory participation in profits
+872,3,Participation contractuelle aux bénéfices,合同约定利润分享,Contractual profit sharing
+878,3,Autres participations,其他利润分享,Other profit sharing
+88,2,Subventions d'équilibre,平衡补助,Equalisation subsidies
+881,3,État,国家,State
+884,3,Collectivités publiques,公共团体,Public authorities
+886,3,Groupe,集团,Group
+888,3,Autres,其他,Other
+89,2,Impôts sur le résultat,所得税,Income tax
+891,3,Impôts sur les bénéfices de l'exercice,本期所得税,Income tax for the year
+8911,4,Activités exercées dans l'État,境内经营活动所得税,Activities carried out in the home State
+8912,4,Activités exercées dans les autres États de la Région,区域内其他成员国经营活动所得税,Activities carried out in other States of the Region
+8913,4,Activités exercées hors Région,区域外经营活动所得税,Activities carried out outside the Region
+892,3,Rappels d'impôts sur résultats antérieurs,以前年度所得税补缴,Back assessments of prior-year income tax
+895,3,Impôt minimum forfaitaire IMF,最低定额税,Minimum flat-rate tax
+899,3,Dégrèvements et annulations d'impôts sur résultats antérieurs,以前年度所得税减免及撤销,Tax relief and cancellations of prior-year income tax
+8991,4,Dégrèvements,税收减免,Tax relief
+8994,4,Annulations pour pertes rétroactives,追溯亏损引起的撤销,Cancellations for retroactive losses
+90,2,Engagements obtenus et engagements accordés,已取得的承诺与已授予的承诺,Commitments obtained and commitments granted
+901,3,Engagements de financement obtenus,已取得的融资承诺,Financing commitments obtained
+9011,4,Crédits confirmés obtenus,已取得的已确认信贷额度,Confirmed credit lines obtained
+9012,4,Emprunts restant à encaisser,尚未收到的借款,Borrowings remaining to be drawn
+9013,4,Facilités de financement renouvelables,可循环融资便利,Revolving financing facilities
+9014,4,Facilités d'émission,发行便利,Issuance facilities
+9018,4,Autres engagements de financement obtenus,其他已取得融资承诺,Other financing commitments obtained
+902,3,Engagements de garantie obtenus,已取得的担保承诺,Guarantee commitments obtained
+9021,4,Avals obtenus,已取得的保证,Endorsements obtained
+9022,4,"Cautions, garanties obtenues",已取得的保证金、担保,Guarantees obtained
+9023,4,Hypothèques obtenues,已取得的抵押,Mortgages obtained
+9024,4,Effets endossés par des tiers,第三方背书票据,Notes endorsed by third parties
+9028,4,Autres garanties obtenues,其他已取得担保,Other guarantees obtained
+903,3,Engagements réciproques,相互承诺,Reciprocal commitments
+9031,4,Achats de marchandises à terme,远期商品采购,Forward purchases of merchandise
+9032,4,Achats à terme de devises,远期外汇买入,Forward purchases of foreign currency
+9033,4,Commandes fermes des clients,客户确定订单,Firm orders from customers
+9038,4,Autres engagements réciproques,其他相互承诺,Other reciprocal commitments
+904,3,Autres engagements obtenus,其他已取得承诺,Other commitments obtained
+9041,4,Abandons de créances conditionnels,附条件债权豁免,Conditional debt waivers
+9043,4,Ventes avec clause de réserve de propriété,保留所有权条款销售,Sales with retention of title clauses
+9048,4,Divers engagements obtenus,各项已取得承诺,Sundry commitments obtained
+905,3,Engagements de financement accordés,已授予的融资承诺,Financing commitments granted
+9051,4,Crédits accordés non décaissés,已批准未发放信贷,Credit granted but not drawn
+9058,4,Autres engagements de financement accordés,其他已授予融资承诺,Other financing commitments granted
+906,3,Engagements de garantie accordés,已授予的担保承诺,Guarantee commitments granted
+9061,4,Avals accordés,已授予的保证,Endorsements granted
+9062,4,"Cautions, garanties accordées",已授予的保证金、担保,Guarantees granted
+9063,4,Hypothèques accordées,已授予的抵押,Mortgages granted
+9064,4,Effets endossés par l'entreprise,企业背书票据,Notes endorsed by the entity
+9068,4,Autres garanties accordées,其他已授予担保,Other guarantees granted
+907,3,Engagements réciproques,相互承诺,Reciprocal commitments granted
+9071,4,Ventes de marchandises à terme,远期商品销售,Forward sales of merchandise
+9072,4,Ventes à terme de devises,远期外汇卖出,Forward sales of foreign currency
+9073,4,Commandes fermes aux fournisseurs,对供应商的确定订单,Firm orders to suppliers
+9078,4,Autres engagements réciproques,其他相互承诺,Other reciprocal commitments granted
+908,3,Autres engagements accordés,其他已授予承诺,Other commitments granted
+9081,4,Annulations conditionnelles de dettes,附条件债务豁免,Conditional cancellations of debts
+9082,4,Engagements de retraite,退休承诺,Retirement commitments
+9083,4,Achats avec clause de réserve de propriété,保留所有权条款采购,Purchases with retention of title clauses
+9088,4,Divers engagements accordés,各项已授予承诺,Sundry commitments granted
+91,2,Contreparties des engagements,承诺对应科目,Counterpart accounts for commitments
+911,3,Contrepartie engagements de financement obtenus,已取得融资承诺对应科目,Counterpart accounts — financing commitments obtained
+912,3,Contrepartie engagements de garantie obtenus,已取得担保承诺对应科目,Counterpart accounts — guarantee commitments obtained
+913,3,Contrepartie engagements réciproques obtenus,已取得相互承诺对应科目,Counterpart accounts — reciprocal commitments
+914,3,Contrepartie autres engagements obtenus,其他已取得承诺对应科目,Counterpart accounts — other commitments obtained
+915,3,Contrepartie engagements de financement accordés,已授予融资承诺对应科目,Counterpart accounts — financing commitments granted
+916,3,Contrepartie engagements de garantie accordés,已授予担保承诺对应科目,Counterpart accounts — guarantee commitments granted
+917,3,Contrepartie engagements réciproques accordés,已授予相互承诺对应科目,Counterpart accounts — reciprocal commitments granted
+918,3,Contrepartie autres engagements accordés,其他已授予承诺对应科目,Counterpart accounts — other commitments granted
+92,2,Comptes réfléchis,反射账户,Reflected accounts
+93,2,Comptes de reclassements,重分类账户,Reclassification accounts
+94,2,Comptes de coûts,成本账户,Cost accounting
+95,2,Comptes de stocks,存货账户（分析会计）,Analytical inventory accounts
+96,2,Comptes d'écarts sur coûts préétablis,标准成本差异账户,Cost variances
+97,2,Comptes de différences de traitement comptable,会计处理差异账户,Internal transfers between cost centres
+98,2,Comptes de résultats,损益账户（分析会计）,Management accounting results
+99,2,Comptes de liaisons internes,内部联结账户,Reciprocal accounts — intercompany

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法语科目发音练习</title>
+<style>
+  :root{
+    --bg:#f7f5f0; --panel:#ffffff; --ink:#2b2b2b; --ink-2:#6b6b6b;
+    --line:#e4ded4; --accent:#8a5a2b; --accent-soft:#f5ebe0;
+    --ok:#2f7d4f; --ok-soft:#e6f3ea;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  header{
+    position:sticky; top:0; z-index:10; background:rgba(247,245,240,.94);
+    backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
+    padding:14px 20px 12px;
+  }
+  h1{margin:0 0 10px; font-size:17px; font-weight:650; letter-spacing:.2px}
+  h1 small{font-weight:400; color:var(--ink-2); font-size:12px; margin-left:8px}
+  .bar{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+  select,input{
+    font:inherit; font-size:13px; padding:6px 10px; border:1px solid var(--line);
+    border-radius:8px; background:var(--panel); color:var(--ink); outline:none;
+  }
+  select:focus,input:focus{border-color:var(--accent)}
+  input{min-width:190px; flex:1; max-width:320px}
+  button{
+    font:inherit; font-size:13px; padding:6px 12px; border-radius:8px;
+    border:1px solid var(--line); background:var(--panel); color:var(--ink);
+    cursor:pointer; transition:.15s;
+  }
+  button:hover{border-color:var(--accent); color:var(--accent)}
+  button:disabled{opacity:.45; cursor:not-allowed}
+  .stat{font-size:12px; color:var(--ink-2); margin-left:auto; text-align:right}
+  .hint{
+    padding:9px 20px; font-size:12px; color:var(--ink-2);
+    background:#fbf9f5; border-bottom:1px solid var(--line); line-height:1.7;
+  }
+  .hint kbd{
+    display:inline-block; font-family:Consolas,monospace; font-size:11px;
+    border:1px solid var(--line); border-bottom-width:2px; border-radius:4px;
+    padding:0 5px; background:var(--panel); color:var(--ink);
+  }
+  main{padding:14px 20px 60px}
+
+  /* ---------- 树形结构 ---------- */
+  .grp{margin-bottom:22px}
+  .kids{margin-left:22px; border-left:1px dashed var(--line); padding-left:6px}
+  .collapsed > .kids{display:none}
+  .row{
+    display:grid; grid-template-columns:16px auto 1fr auto; gap:10px;
+    align-items:center; padding:8px 10px; border-radius:9px;
+    border:1px solid transparent; transition:.12s;
+  }
+  .item.row:hover{background:var(--panel); border-color:var(--line)}
+  .row.hdr{cursor:pointer; user-select:none}
+  .row.hdr:hover{background:var(--panel); border-color:var(--line)}
+  .row.hdr.cat{
+    background:var(--accent-soft); border:1px solid #e3cdb4; margin-bottom:2px;
+  }
+  .row.hdr.cat:hover{border-color:var(--accent)}
+  .row.hdr.cat .fr{color:var(--accent); font-size:14.5px; font-weight:650}
+  .row.hdr:not(.cat){background:rgba(255,255,255,.55)}
+  .row.hdr:not(.cat):hover{background:var(--panel)}
+  .row.hdr:not(.cat) .fr{font-weight:600}
+  .collapsed > .row.hdr{opacity:.82}
+  .caret{width:16px; text-align:center; color:var(--accent); font-size:10px; flex:none}
+  .caret.sp{color:transparent}
+  .collapsed > .row.hdr .caret::before{content:"▸"}
+  .row.hdr .caret::before{content:"▾"}
+  .row.kb{
+    background:var(--accent-soft) !important;
+    border-color:var(--accent) !important;
+    box-shadow:inset 3px 0 0 var(--accent);
+  }
+  .row.on{background:var(--accent-soft); border-color:#e3cdb4}
+  .row.on .play{background:var(--ok); border-color:var(--ok); color:#fff}
+  .code{
+    font-family:Consolas,"Courier New",monospace; font-size:12px;
+    color:var(--ink-2); min-width:52px;
+  }
+  .row.hdr .code{color:var(--accent); font-weight:600}
+  .fr{font-size:15.5px; font-weight:600; color:var(--ink); line-height:1.35}
+  .row.hdr.cat .fr, .row.hdr:not(.cat) .fr{font-size:15px}
+  .zh{font-size:12.5px; color:var(--ink-2); margin-top:2px}
+  .play{
+    width:34px; height:34px; border-radius:50%; padding:0; flex:none;
+    display:grid; place-items:center; font-size:13px; line-height:1;
+  }
+  .play.speaking{background:var(--ok); border-color:var(--ok); color:#fff}
+  /* 英文按钮：小一号，与法文按钮区分 */
+  .acts{display:flex; gap:6px; align-items:center; flex:none}
+  .play.en{
+    width:28px; height:28px; border-radius:7px;
+    font-size:10px; font-weight:700; letter-spacing:.3px; color:var(--ink-2);
+  }
+  .play.en:hover{border-color:var(--accent); color:var(--accent)}
+  .play.en.speaking{background:var(--ok); border-color:var(--ok); color:#fff}
+  .play.en.soft{opacity:.55}
+  .nofr .play{opacity:.4}
+  footer{
+    padding:16px 20px 40px; font-size:12px; color:var(--ink-2); text-align:center;
+    border-top:1px solid var(--line); margin-top:20px;
+  }
+  @media (max-width:640px){
+    header{padding:12px 14px 10px} main{padding:12px 14px 50px}
+    .hint{padding:8px 14px}
+    .stat{margin-left:0; width:100%; text-align:left}
+    .row{grid-template-columns:16px auto 1fr auto; gap:8px; padding:8px 6px}
+    .kids{margin-left:12px; padding-left:4px}
+    input{min-width:0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>法语科目发音练习 <small>SYSCOHADA · Henri 法语男声 + Ryan 英式男声</small></h1>
+  <div class="bar">
+    <select id="cat"></select>
+    <input id="q" type="search" placeholder="搜索法文 / 中文 / 英文 / 科目号…">
+    <select id="rate">
+      <option value="0.7">慢速 0.7×</option>
+      <option value="0.85">稍慢 0.85×</option>
+      <option value="1" selected>正常 1.0×</option>
+      <option value="1.15">较快 1.15×</option>
+    </select>
+    <button id="fold" title="全部折叠 / 全部展开（所有层级）">全部折叠</button>
+    <button id="playAll" title="展开全部并从首条开始连续朗读">连续朗读</button>
+    <button id="stop" disabled>停止</button>
+    <span class="stat" id="stat"></span>
+  </div>
+</header>
+
+<div class="hint">
+  <b>离线音频</b>：所有发音已内嵌本文件，无需联网。<br>
+  <b>鼠标</b>：点击任何标题行（大类 / 二三级科目）折叠展开；点击科目行或 <b>▶ / EN</b> 朗读法 / 英。<br>
+  <b>键盘</b>：<kbd>↑</kbd><kbd>↓</kbd> 选择条目（含各级标题）　<kbd>←</kbd> 读法文　<kbd>→</kbd> 读英文　<kbd>Enter</kbd> 折叠 / 展开　<kbd>Esc</kbd> 停止发音
+</div>
+
+<main id="list"></main>
+<footer>法语科目发音练习 · 法语 fr-FR-HenriNeural · 英语 en-GB-RyanNeural · 完全离线运行</footer>
+
+<script>
+const DATA  = __DATA__;
+const AUDIO = __AUDIO__;
+const AUDIO_EN = __AUDIO_EN__;
+const CATS  = __CATS__;
+
+const elList   = document.getElementById('list');
+const elCat    = document.getElementById('cat');
+const elQ      = document.getElementById('q');
+const elRate   = document.getElementById('rate');
+const elStat   = document.getElementById('stat');
+const elStop   = document.getElementById('stop');
+const elPlayAll= document.getElementById('playAll');
+const elFold   = document.getElementById('fold');
+
+/* ---------- 朗读引擎：优先内嵌音频，缺失时回退浏览器语音 ---------- */
+let currentAudio = null;
+let currentBtn   = null;
+let stopFlag     = false;
+let playingAll   = false;
+
+/* 部分环境不具备 Web Speech API，集中做能力探测，避免整段脚本抛错 */
+const HAS_TTS = (typeof speechSynthesis !== 'undefined'
+                 && typeof SpeechSynthesisUtterance !== 'undefined');
+
+function cancelTTS(){
+  if(HAS_TTS){ try{ speechSynthesis.cancel(); }catch(e){} }
+}
+
+function releaseBtn(){
+  if(currentBtn){ currentBtn.classList.remove('speaking'); currentBtn = null; }
+  document.querySelectorAll('.row.on').forEach(n => n.classList.remove('on'));
+}
+
+/* 返回 Promise，在音频结束时 resolve。lang='fr'|'en' */
+function playFrench(text, btn, rate, lang){
+  return new Promise(resolve => {
+    lang = lang || 'fr';
+    const table = (lang === 'en') ? AUDIO_EN : AUDIO;
+    const src = table[text];
+
+    if(src){                                   // 内嵌音频：绝不截音
+      const a = new Audio(src);
+      a.playbackRate = rate || 1;              // 用 playbackRate 变速，不重新编码
+      a.preservesPitch = true;
+      currentAudio = a;
+      if(btn){ btn.classList.add('speaking'); currentBtn = btn; }
+      const finish = () => { resolve(); };
+      a.onended = finish;
+      a.onerror = finish;
+      a.play().catch(finish);
+    } else {                                   // 回退：浏览器语音
+      if(!HAS_TTS){ resolve(); return; }       // 无 TTS 环境：跳过，不中断连播
+      cancelTTS();
+      const u = new SpeechSynthesisUtterance('\u200b' + text);
+      u.lang = (lang === 'en') ? 'en-GB' : 'fr-FR';
+      u.rate = (rate || 1) * 0.92;
+      const vs = speechSynthesis.getVoices() || [];
+      const re = (lang === 'en') ? /^en([-_]GB)/i : /^fr[-_]FR/i;
+      const fv = vs.find(v => re.test(v.lang))
+              || vs.find(v => new RegExp('^' + lang, 'i').test(v.lang));
+      if(fv) u.voice = fv;
+      u.onend = u.onerror = () => resolve();
+      speechSynthesis.speak(u);
+    }
+  });
+}
+
+/* 停止播放。resetSeries=false 用于「点读打断连播」场景，避免误改连播按钮文案 */
+function stopAll(resetSeries){
+  stopFlag = true;
+  if(currentAudio){ try{ currentAudio.pause(); }catch(e){} currentAudio = null; }
+  cancelTTS();
+  releaseBtn();
+  elStop.disabled = true;
+  if(resetSeries !== false){
+    playingAll = false;
+    elPlayAll.textContent = '连续朗读';
+  }
+}
+
+elStop.onclick = () => stopAll(true);
+
+/* ---------- 通用播放入口（点击与键盘共用） ---------- */
+async function startPlay(row, lang, text, btn){
+  if(!text) return;
+  stopAll(false);            // 打断当前播放（不改动连播状态）
+  stopFlag = false;
+  playingAll = false;
+  elStop.disabled = false;
+  row.classList.add('on');
+  await playFrench(text, btn, parseFloat(elRate.value) || 1, lang);
+  // 仅当用户未在此期间发起新播放时才收尾
+  if(!stopFlag){
+    releaseBtn();
+    elStop.disabled = true;
+  }
+}
+
+/* ---------- 折叠状态（localStorage 持久化） ---------- */
+let COLLAPSED = (function(){
+  try{ return new Set(JSON.parse(localStorage.getItem('frColl') || '[]')); }
+  catch(e){ return new Set(); }
+})();
+function persistColl(){
+  try{ localStorage.setItem('frColl', JSON.stringify([...COLLAPSED])); }catch(e){}
+}
+function toggleNode(row){
+  const box = row.closest('.node, section.grp');
+  if(!box) return;
+  const now = !box.classList.contains('collapsed');
+  box.classList.toggle('collapsed', now);
+  if(now) COLLAPSED.add(box.dataset.key); else COLLAPSED.delete(box.dataset.key);
+  persistColl();
+}
+
+/* ---------- 渲染 ---------- */
+const NUM = new Intl.NumberFormat('zh-CN');
+const esc = s => String(s).replace(/[&<>"']/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+let VISIBLE = [];      // 当前筛选出的条目，供连续朗读使用
+const BYCODE = new Map(DATA.map(d => [d.code, d]));   // 科目号 → 条目（用于补齐父级）
+
+/* 把筛选结果按科目号前缀组装成树；搜索命中明细时自动补齐各级父标题 */
+function buildTree(items, visSet){
+  const nodeMap = new Map(), roots = [];
+  function ensure(d){
+    let n = nodeMap.get(d.code);
+    if(n) return n;
+    n = {d, kids: []};
+    nodeMap.set(d.code, n);
+    const pd = d.level > 2 ? BYCODE.get(d.code.slice(0, -1)) : null;
+    if(pd && pd !== d) ensure(pd).kids.push(n);
+    else roots.push(n);
+    return n;
+  }
+  for(const d of items){ ensure(d); visSet.add(d); }
+  return roots;
+}
+
+function actsHTML(d){
+  if(!d.say && !d.sayEn) return '<div class="acts"></div>';
+  const hasEn = d.sayEn && !!AUDIO_EN[d.sayEn];
+  return '<div class="acts">'
+       + (d.say ? '<button class="play" title="朗读法文">▶</button>' : '')
+       + (d.sayEn ? '<button class="play en' + (hasEn ? '' : ' soft') + '" title="朗读英文（EN）">EN</button>' : '')
+       + '</div>';
+}
+
+function hdrRow(d, key, isCat, extraZh){
+  return '<div class="row hdr' + (isCat ? ' cat' : '') + '"'
+       +       ' data-say="' + esc(d.say || '') + '"'
+       +       ' data-say-en="' + esc(d.sayEn || '') + '">'
+       +   '<span class="caret"></span>'
+       +   '<span class="code">' + esc(d.code || '') + '</span>'
+       +   '<div><div class="fr">' + esc(d.fr) + '</div>'
+       +     '<div class="zh">' + esc(d.zh) + (d.en ? ' · ' + esc(d.en) : '') + (extraZh ? ' · ' + extraZh : '') + '</div></div>'
+       +   actsHTML(d)
+       + '</div>';
+}
+
+function itemRow(d){
+  const has = !!AUDIO[d.say];
+  return '<div class="row item' + (has ? '' : ' nofr') + '"'
+       +       ' data-say="' + esc(d.say) + '"'
+       +       ' data-say-en="' + esc(d.sayEn) + '"'
+       +       ' data-fr="' + esc(d.fr) + '">'
+       +   '<span class="caret sp"></span>'
+       +   '<span class="code">' + esc(d.code || '—') + '</span>'
+       +   '<div><div class="fr">' + esc(d.fr) + '</div>'
+       +     '<div class="zh">' + esc(d.zh) + (d.en ? ' · ' + esc(d.en) : '') + '</div></div>'
+       +   actsHTML(d)
+       + '</div>';
+}
+
+function renderNode(n, buf, searching){
+  const d = n.d;
+  if(n.kids.length){
+    const key = 'n:' + d.code;
+    const col = !searching && COLLAPSED.has(key);
+    buf.push('<div class="node' + (col ? ' collapsed' : '') + '" data-key="' + esc(key) + '">');
+    buf.push(hdrRow(d, key, false, n.kids.length + ' 条'));
+    buf.push('<div class="kids">');
+    for(const k of n.kids) renderNode(k, buf, searching);
+    buf.push('</div></div>');
+  } else {
+    buf.push(itemRow(d));
+  }
+}
+
+function render(){
+  const cat = elCat.value;
+  const q   = elQ.value.trim().toLowerCase();
+  const searching = q.length > 0;
+
+  VISIBLE = DATA.filter(d =>
+    (cat === '__all' || d.cat === cat) &&
+    (!q || d.fr.toLowerCase().includes(q)
+        || d.zh.toLowerCase().includes(q)
+        || (d.en || '').toLowerCase().includes(q)
+        || d.code.includes(q))
+  );
+
+  if(!VISIBLE.length){
+    elList.innerHTML = '<p style="color:#6b6b6b;font-size:13px;padding:20px 0">没有匹配的条目。</p>';
+    elStat.textContent = '0 条';
+    setKb(null);
+    return;
+  }
+
+  /* 分组：按 CATS 顺序，未登记的类别排在其后 */
+  const groups = new Map();
+  for(const c of CATS) groups.set(c.cat, []);
+  for(const d of VISIBLE){
+    if(!groups.has(d.cat)) groups.set(d.cat, []);
+    groups.get(d.cat).push(d);
+  }
+
+  const buf = [];
+  const visSet = new Set();
+  let miss = 0, missEn = 0;
+  for(const d of VISIBLE){
+    if(!AUDIO[d.say]) miss++;
+    if(d.sayEn && !AUDIO_EN[d.sayEn]) missEn++;
+  }
+
+  for(const [c, items] of groups){
+    const ci = CATS.find(x => x.cat === c)
+            || {fr:'', zh:c, en:'', say:'', sayEn:''};
+    const catNum = (c.match(/^\d+/) || [''])[0];
+    const key = 'c:' + c;
+    const col = !searching && COLLAPSED.has(key);
+    buf.push('<section class="grp' + (col ? ' collapsed' : '') + '" data-key="' + esc(key) + '">');
+    buf.push('<div class="row hdr cat"'
+           +       ' data-say="' + esc(ci.say) + '"'
+           +       ' data-say-en="' + esc(ci.sayEn) + '">'
+           +   '<span class="caret"></span>'
+           +   '<span class="code">' + esc(catNum) + '</span>'
+           +   '<div><div class="fr">' + (ci.fr ? esc(ci.fr) : esc(c)) + '</div>'
+           +     '<div class="zh">' + esc(ci.zh) + (ci.en ? ' · ' + esc(ci.en) : '') + ' · ' + items.length + ' 条</div></div>'
+           +   actsHTML(ci)
+           + '</div>');
+    buf.push('<div class="kids">');
+    const roots = buildTree(items, visSet);
+    for(const n of roots) renderNode(n, buf, searching);
+    buf.push('</div></section>');
+  }
+  elList.innerHTML = buf.join('');
+  setKb(null);
+
+  const audioCnt = new Set(VISIBLE.map(d => d.say)).size;
+  elStat.innerHTML = NUM.format(VISIBLE.length) + ' / ' + NUM.format(DATA.length) + ' 条'
+                   + ' · 法语 ' + NUM.format(audioCnt)
+                   + (miss ? ' <span style="color:#b07b2b">(' + miss + ' 条回退)</span>' : '')
+                   + (missEn ? ' <span style="color:#b07b2b">· 英语 ' + missEn + ' 条回退</span>' : '');
+}
+
+/* ---------- 键盘导航 ---------- */
+let kbi = -1;
+function navRows(){
+  return [...elList.querySelectorAll('.row')].filter(r => r.offsetParent !== null);
+}
+function setKb(row){
+  elList.querySelectorAll('.row.kb').forEach(r => r.classList.remove('kb'));
+  if(row){
+    row.classList.add('kb');
+    row.scrollIntoView({block:'nearest'});
+    const rows = navRows();
+    kbi = rows.indexOf(row);
+  } else {
+    kbi = -1;
+  }
+}
+
+document.addEventListener('keydown', async e => {
+  const t = e.target;
+  if(t && (t.tagName === 'INPUT' || t.tagName === 'SELECT' || t.tagName === 'TEXTAREA' || t.isContentEditable)){
+    if(e.key === 'Escape') t.blur();
+    return;
+  }
+  if(e.key === 'Escape'){ stopAll(true); return; }
+
+  const rows = navRows();
+  if(!rows.length) return;
+
+  if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+    e.preventDefault();
+    if(kbi < 0) kbi = 0;
+    else kbi = Math.min(Math.max(kbi + (e.key === 'ArrowDown' ? 1 : -1), 0), rows.length - 1);
+    setKb(rows[kbi]);
+  } else if(e.key === 'Home' || e.key === 'End'){
+    e.preventDefault();
+    kbi = (e.key === 'Home') ? 0 : rows.length - 1;
+    setKb(rows[kbi]);
+  } else if(e.key === 'ArrowLeft' || e.key === 'ArrowRight'){
+    e.preventDefault();
+    const row = rows[Math.max(kbi, 0)];
+    if(!row) return;
+    setKb(row);
+    const wantEn = (e.key === 'ArrowRight');
+    let lang = wantEn ? 'en' : 'fr';
+    let text = wantEn ? row.dataset.sayEn : row.dataset.say;
+    if(!text && wantEn){ lang = 'fr'; text = row.dataset.say; }  // 无英文时回退读法文
+    startPlay(row, lang, text, row.querySelector('.play' + (lang === 'en' ? '.en' : ':not(.en)')));
+  } else if(e.key === 'Enter' || e.key === ' '){
+    const row = rows[Math.max(kbi, 0)];
+    if(!row) return;
+    if(row.classList.contains('hdr')){
+      e.preventDefault();
+      toggleNode(row);
+    } else if(e.key === 'Enter'){
+      e.preventDefault();
+      setKb(row);
+      startPlay(row, 'fr', row.dataset.say, row.querySelector('.play'));
+    }
+  }
+});
+
+/* ---------- 交互 ---------- */
+elList.addEventListener('click', e => {
+  const row = e.target.closest('.row');
+  if(!row) return;
+
+  const enBtn = e.target.closest('.play.en');
+  const frBtn = e.target.closest('.play:not(.en)');
+  const isHdr = row.classList.contains('hdr');
+
+  // 标题行：点按钮朗读，点其他位置折叠/展开
+  if(isHdr){
+    if(enBtn || frBtn){
+      const lang = enBtn ? 'en' : 'fr';
+      const text = enBtn ? row.dataset.sayEn : row.dataset.say;
+      startPlay(row, lang, text, enBtn || frBtn);
+    } else {
+      toggleNode(row);
+    }
+    return;
+  }
+
+  // 科目明细行：点 EN 按钮读英文，点其他任何位置读法文
+  const lang = enBtn ? 'en' : 'fr';
+  const text = enBtn ? row.dataset.sayEn : row.dataset.say;
+  startPlay(row, lang, text, enBtn || row.querySelector('.play'));
+});
+
+elQ.addEventListener('input', render);
+elCat.addEventListener('change', render);
+
+/* 全部折叠 / 全部展开（作用于所有层级，含折叠父级内的子节点） */
+elFold.addEventListener('click', () => {
+  const boxes = [...elList.querySelectorAll('.node, section.grp')];
+  if(!boxes.length) return;
+  const anyOpen = boxes.some(b => !b.classList.contains('collapsed'));
+  if(anyOpen){
+    boxes.forEach(b => { b.classList.add('collapsed'); COLLAPSED.add(b.dataset.key); });
+    elFold.textContent = '全部展开';
+  } else {
+    boxes.forEach(b => { b.classList.remove('collapsed'); COLLAPSED.delete(b.dataset.key); });
+    elFold.textContent = '全部折叠';
+  }
+  persistColl();
+});
+
+/* ---------- 连续朗读 ---------- */
+elPlayAll.addEventListener('click', async () => {
+  if(playingAll){ stopAll(true); return; }
+  if(!VISIBLE.length) return;
+
+  stopAll(false);
+  playingAll = true;
+  stopFlag = false;
+  elPlayAll.textContent = '暂停';
+  elStop.disabled = false;
+
+  // 先展开全部层级，保证筛选结果完整朗读
+  COLLAPSED.clear(); persistColl();
+  elFold.textContent = '全部折叠';
+  render();
+
+  const nodes = [...elList.querySelectorAll('.item')].filter(r => r.offsetParent !== null);
+  for(let i = 0; i < nodes.length; i++){
+    if(stopFlag) break;
+    const it  = nodes[i];
+    const btn = it.querySelector('.play');
+    it.scrollIntoView({block:'center', behavior:'smooth'});
+    it.classList.add('on');
+    await playFrench(it.dataset.say, btn, parseFloat(elRate.value) || 1);
+    btn.classList.remove('speaking');
+    it.classList.remove('on');
+    if(stopFlag) break;
+  }
+  if(!stopFlag) stopAll(true);
+});
+
+/* 切页或刷新时停止播放 */
+window.addEventListener('pagehide', () => stopAll(true));
+window.addEventListener('beforeunload', () => stopAll(true));
+
+/* ---------- 初始化 ---------- */
+(function init(){
+  const cats = CATS.map(c => c.cat);
+  const seen = new Set(cats);
+  for(const d of DATA){ if(d.cat && !seen.has(d.cat)){ seen.add(d.cat); cats.push(d.cat); } }
+
+  let opts = '<option value="__all">全部类别（' + DATA.length + ' 条）</option>';
+  for(const c of cats){
+    const n = DATA.filter(d => d.cat === c).length;
+    opts += '<option value="' + esc(c) + '">' + esc(c) + '（' + n + '）</option>';
+  }
+  elCat.innerHTML = opts;
+
+  render();
+})();
+</script>
+</body>
+</html>

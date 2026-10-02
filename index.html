@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OHADA/SYSCOHADA 法语会计科目 · 中法英三语离线发音练习</title>
+<style>
+  :root{
+    --bg:#fbf7f0; --card:#ffffff; --ink:#2c2620; --sub:#6b6055;
+    --line:#e6ddd0; --accent:#b8763a; --accent-soft:#f4e6d6; --ok:#3f7d58;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:32px 16px 56px; background:var(--bg); color:var(--ink);
+    font-family:"Noto Serif SC","Songti SC",Georgia,"Times New Roman",serif;
+    line-height:1.75;
+  }
+  .wrap{max-width:820px;margin:0 auto}
+  h1{font-size:26px;margin:0 0 6px;letter-spacing:.3px}
+  .sub{color:var(--sub);font-size:14px;margin:0 0 26px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:18px}
+  h2{font-size:17px;margin:0 0 12px;color:var(--accent)}
+  a.btn{
+    display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+    padding:11px 20px;border-radius:8px;font-size:15px;margin:2px 8px 2px 0
+  }
+  a.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+  th{color:var(--sub);font-weight:600}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;color:var(--sub)}
+  ul{margin:8px 0 0;padding-left:20px}
+  li{margin:3px 0}
+  code{background:var(--accent-soft);padding:1px 5px;border-radius:4px;font-size:13px}
+  .note{font-size:13px;color:var(--sub);margin-top:10px}
+  .lang{margin-top:34px;font-size:14px;color:var(--sub)}
+  .lang h2{font-size:15px;color:var(--ink)}
+  footer{margin-top:36px;font-size:12px;color:var(--sub);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>OHADA / SYSCOHADA 法语会计科目 · 中法英三语离线发音练习</h1>
+  <p class="sub">单文件 HTML · 1351 条科目 · 中文 · 法文 · 英文 · 双语离线发音 · 无需联网</p>
+
+  <div class="card">
+    <h2>下载 / 打开</h2>
+    <p style="margin:0 0 12px">
+      整个工具就是 <strong>一个 HTML 文件</strong>（约 58 MB，因为 2459 段语音已内嵌其中）。
+      下载后 <strong>双击用浏览器打开</strong>即可，不联网、不安装、不依赖任何语音包。
+    </p>
+    <a class="btn" href="ohada-syscohada-pronunciation-offline.html">在线打开 / 下载工具</a>
+    <a class="btn ghost" href="https://github.com/roysee1972/ohada-syscohada-trilingual-pronunciation">GitHub 仓库</a>
+    <p class="note">
+      若浏览器直接开始加载 58 MB 页面，请耐心等几秒；如需保存，右键「另存为」即可（文件名可改为任意中文名）。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>它解决什么问题</h2>
+    <table>
+      <tr><th>场景</th><th>困境</th></tr>
+      <tr><td>看当地报表、凭证、账套</td><td>科目是法语的，认识单词但<b>念不出来</b></td></tr>
+      <tr><td>开会、查账、和当地会计沟通</td><td>想说"应收账款减值"，不知道法语怎么说</td></tr>
+      <tr><td>用法语报出科目号</td><td>对方听得懂，自己却不敢开口</td></tr>
+      <tr><td>查词典 / 查 PDF 科目表</td><td>只有文字没有发音，且只有法语没有中文</td></tr>
+      <tr><td>矿区、工地、出差途中</td><td><b>没网</b>，在线翻译与在线 TTS 全部失效</td></tr>
+    </table>
+    <p class="note">服务对象：在 OHADA 法语区（刚果金、科特迪瓦、塞内加尔、喀麦隆、贝宁等 17 个成员国）从事财务、会计、审计工作的中国人。</p>
+  </div>
+
+  <div class="card">
+    <h2>主要特点</h2>
+    <ul>
+      <li><b>完全离线</b>：法语 <code>fr-FR-HenriNeural</code> 1196 段 + 英语 <code>en-GB-RyanNeural</code> 1263 段 MP3，全部 base64 内嵌</li>
+      <li><b>三语对照</b>：中文（理解）— 法文（工作语言）— 英文（国际准则术语）</li>
+      <li><b>子科目英文按法文本义逐条重译</b>，不是复制父科目（1089 条修订，见 <code>en_fix.py</code>）</li>
+      <li><b>树形层级</b>：大类 → 二级 → 三级 → 四级，与真实账套一致</li>
+      <li><b>连续朗读</b>：整类"磨耳朵"，通勤做家务时当背景音</li>
+      <li><b>四档语速</b> 0.7× / 0.85× / 1.0× / 1.15×，变速不重新编码</li>
+      <li><b>搜索</b>：法文 / 中文 / 英文 / 科目号，搜到明细会自动补齐各级父标题</li>
+      <li><b>键盘流</b>：<code>↑↓</code> 选择、<code>←</code> 读法文、<code>→</code> 读英文、<code>Enter</code> 折叠、<code>Esc</code> 停止</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>数据范围</h2>
+    <table>
+      <tr><th>大类</th><th style="text-align:right">条数</th><th>大类</th><th style="text-align:right">条数</th></tr>
+      <tr><td>1 长期资源</td><td class="num">156</td><td>6 费用</td><td class="num">258</td></tr>
+      <tr><td>2 固定资产</td><td class="num">298</td><td>7 收入</td><td class="num">119</td></tr>
+      <tr><td>3 存货</td><td class="num">74</td><td>8 HAO 非经常性</td><td class="num">55</td></tr>
+      <tr><td>4 往来方</td><td class="num">235</td><td>9 承诺与管理会计</td><td class="num">58</td></tr>
+      <tr><td>5 资金</td><td class="num">98</td><td></td><td class="num"></td></tr>
+    </table>
+    <p class="note">合计 1351 条（二级 85 / 三级 431 / 四级 835）。纯数据可只用 <code>data/ohada_accounts_trilingual.csv</code>（130 KB，无需打开 58 MB 的 HTML）。</p>
+  </div>
+
+  <div class="lang">
+    <h2>English</h2>
+    <p>A single-file, fully offline HTML tool: 1351 OHADA/SYSCOHADA chart-of-accounts entries in
+    Chinese · French · English, each with embedded French and English audio. Built for Chinese-speaking
+    finance/accounting professionals in the 17 OHADA member states who can read French account labels
+    but cannot pronounce them, and who often work without internet.</p>
+    <h2>Français</h2>
+    <p>Un fichier HTML unique, entièrement hors ligne : 1351 comptes du plan comptable OHADA/SYSCOHADA
+    révisé, en trilingue chinois · français · anglais, avec la prononciation audio intégrée de chaque
+    libellé. Conçu pour les professionnels chinois de la comptabilité travaillant dans les 17 États
+    membres de l'OHADA.</p>
+  </div>
+
+  <footer>单文件离线工具 · 无追踪 · 无外部请求 · MIT 许可（代码） · 音频由 Microsoft Edge TTS 合成，仅供学习交流</footer>
+
+</div>
+</body>
+</html>
